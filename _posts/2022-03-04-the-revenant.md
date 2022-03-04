@@ -8,7 +8,8 @@ image: https://www.themoviedb.org/t/p/w1280/3muiX0eag7FZX6EOq3tgmMTKcVa.jpg
 amazon-physical: https://amzn.to/3txYmcE
 amazon-video: https://amzn.to/3hEM6l7
 description: "Robbie's review of The Revenant movie. A movie that wasn't on his radar but should have been."
-featured: true
+featured: false
+hidden: false
 rating: 4.5
 comments: false
 ---

@@ -1,15 +1,15 @@
 ---
 layout: review
-title:  "The Revenant"
-author: jon
+title:  "Nightmare Alley"
+author: robbie
 categories: [ review ]
-tags: ['2015', appletv+, 4k, streaming]
-image: https://www.themoviedb.org/t/p/w1280/3muiX0eag7FZX6EOq3tgmMTKcVa.jpg
-amazon-physical: https://amzn.to/3txYmcE
-description: "Robbie's review of The Revenant movie. A movie that wasn't on his radar but should have been."
+tags: ['2021', theater]
+image: https://www.themoviedb.org/t/p/w1280/680klE0dIreQQOyWKFgNnCAJtws.jpg
+description: "I <3 Guillermo del Toro.  This reimagination is great!"
+amazon-physical: https://amzn.to/3hCyDu7
 featured: true
 hidden: true
-rating: 4.5
+rating: 4
 comments: false
 ---
 
