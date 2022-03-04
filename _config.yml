@@ -1,0 +1,75 @@
+# Site
+name: "Geek on Film"
+title: "Geek on Film"
+description: "Home of the podcast Geek On Film and reviews from the hosts."
+logo: 'assets/images/gof-logo.png'
+wide_logo: 'assets/images/logo-wide.png'
+favicon: 'assets/images/favicon.ico'
+google_analytics: 'G-K0FZMDHZKE'
+disqus: 'geek-on-film'
+mailchimp-list: 'https://geekonfilm.us14.list-manage.com/subscribe/post?u=5dba67fa5e66c0a8fe02ce5ef&amp;id=eb11fc6452'
+mailchimp-logo: 'assets/images/mailchimp-footer.png'
+twitter: https://twitter.com/GeekOnFilmCom
+twitter-handle: GeekOnFilmCom
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  robbie:
+    name: Robbie Holmes
+    display_name: RobbieTheGeek
+    avatar: 'assets/images/robbie-avatar.png'
+    email: robbiethegeek+gof@gmail.com
+    web: https://www.robbiethegeek.com
+    twitter: https://twitter.com/RobbieTheGeek
+    description: "Podcaster, technologist, amateur cinephile, home chef."
+  jon:
+    name: Jon
+    display_name: Jon Hoche    
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: jonhoche@gmail.com
+    web: http://jonhoche.com/
+    twitter: https://twitter.com/jonhoche
+    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
