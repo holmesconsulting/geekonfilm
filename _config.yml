@@ -27,8 +27,8 @@ authors:
   jon:
     name: Jon
     display_name: Jon Hoche    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    avatar: 'assets/images/jon-avatar.png'
+    # gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: jonhoche@gmail.com
     web: http://jonhoche.com/
     twitter: https://twitter.com/jonhoche

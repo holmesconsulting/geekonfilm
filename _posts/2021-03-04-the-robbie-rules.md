@@ -1,7 +1,7 @@
 ---
 layout: review
 title:  "The Revenant"
-author: robbie
+author: jon
 categories: [ review ]
 tags: ['2015', appletv+, 4k, streaming]
 image: https://www.themoviedb.org/t/p/w1280/3muiX0eag7FZX6EOq3tgmMTKcVa.jpg
