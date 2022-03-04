@@ -23,6 +23,7 @@ authors:
     email: robbiethegeek+gof@gmail.com
     web: https://www.robbiethegeek.com
     twitter: https://twitter.com/RobbieTheGeek
+    letterboxd: https://letterboxd.com/robbiethegeek/
     description: "Podcaster, technologist, amateur cinephile, home chef."
   jon:
     name: Jon
@@ -32,6 +33,7 @@ authors:
     email: jonhoche@gmail.com
     web: http://jonhoche.com/
     twitter: https://twitter.com/jonhoche
+    letterboxd: https://letterboxd.com/jonhoche/
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
