@@ -24,17 +24,16 @@ authors:
     web: https://www.robbiethegeek.com
     twitter: https://twitter.com/RobbieTheGeek
     letterboxd: https://letterboxd.com/robbiethegeek/
-    description: "Podcaster, technologist, amateur cinephile, home chef."
+    description: "Known as RobbieTheGeek everywhere online, Robbie is a podcaster, technologist, amateur cinephile, home chef & tech community organizer."
   jon:
-    name: Jon
+    name: Jon Hoche 
     display_name: Jon Hoche    
     avatar: 'assets/images/jon-avatar.png'
-    # gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: jonhoche@gmail.com
     web: http://jonhoche.com/
     twitter: https://twitter.com/jonhoche
     letterboxd: https://letterboxd.com/jonhoche/
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    description: "Jon can often be seen on a stage or screen, an actor and puppeteer that also embraces his nerdy reading comics, catching up on the latest TV and film."
 
 # Plugins
 plugins:
