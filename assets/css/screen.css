@@ -8,7 +8,7 @@ License: https://www.wowthemes.net/freebies-license/
     .container {max-width:80%;}
 }
 .mainheading {
-    padding: 1rem 0rem;
+    padding: 1rem 2rem  ;
 }
 
 a {
@@ -51,7 +51,7 @@ pre {
 .site-content {
     min-height: 60vh;
     padding-top: 1.5rem;
-    margin-top: 57px;
+    margin-top: 120px;
     transition: all 0.4s;
 }
 
@@ -300,7 +300,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
+    max-height: 100px;
     margin-right: 5px;
 }
 
@@ -772,9 +772,8 @@ iframe {
         margin-bottom: -50px;
         margin-top: 3rem;
         padding: 0;
-        height: 350px;
+        height: 150px;
         border-radius: 0;
-        background-image: url(../images/jumbotron.jpg);
         background-size: cover;
     }
 
@@ -792,8 +791,7 @@ iframe {
     margin-top: 3rem;
     padding: 0;
     border-radius: 0;
-    background-image: url(../images/jumbotron.png);
-    background-size: cover;
+   
 }
 
 .jumbotron.fortags a {
@@ -898,4 +896,8 @@ iframe {
 .lazyimg[data-srcset] {
     opacity: 0;
     transition: opacity .25s;
+}
+
+nav.navbar a.navbar-brand {
+    margin-right: 0;
 }
