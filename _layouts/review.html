@@ -73,6 +73,9 @@ post_class: post-template
                 {% endif %}
                 <!-- End Toc -->
                 {{content}}
+                {% if page.youtube %}
+                    {% include youtube.html %}
+                {% endif %}
             </div>
 
             <!-- Rating -->
