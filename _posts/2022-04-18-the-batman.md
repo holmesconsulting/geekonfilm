@@ -1,0 +1,23 @@
+---
+layout: review
+title:  "The Batman"
+author: robbie
+categories: [ review ]
+tags: ['2022', hbomax, streaming, 'dolby atmos']
+image: "assets/images/posters/the-batman.jpg"
+amazon-physical: https://amzn.to/3vMV0E3
+amazon-video: https://amzn.to/3jPZXWP
+description: "Nine Days blew me away, so glad I finally was able to catch up on this 2021 release."
+featured: true
+hidden: true
+rating: 4.5
+comments: false
+synopsis: In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.
+youtube: mqqft2x_Aa4
+---
+
+Go watch this on HBO Max now: https://www.hbomax.com/feature/the-batman
+Was lucky enough to initially see this film in a Dolby Cinema theater, so the image was large but no IMAX but the sound was earth-shaking. This movie was made in a labratory for this geek's sensibilities, the first time that Batman that seems to understand the 83 years of the character's history and the entire rich tapestry created by hundreds of creators that have breathed life into the most amazing rogues gallery and the seedy Gotham a character in it's own right over the last eight decades.
+
+This version of the Batman is helmed by <a href="https://www.imdb.com/name/nm0716257/">Matt Reeves</a> who previously picked up the mantle in the Apes trilogy and successfully landed that franchise. The director of photography is <a href="https://www.imdb.com/name/nm0292132/">Grieg Fraser</a> that you might know from his extensive resume but recently Dune Part 1 & a few episodes of The Mandelorian.  The vision and execution of this movies at times moody, emo filled moments of Bruce in the shadows and other times one of the most amazing car chases I think I have ever captured on film (shot at night, in the rain in the most franetic and heartpounding prespective are perfectly balenced.
+
