@@ -1,0 +1,24 @@
+---
+layout: review
+title:  "The Lost City"
+author: robbie
+categories: [ review ]
+tags: ['2022', streaming, showtime]
+image: "assets/images/posters/the-lost-city.jpg"
+amazon-physical: https://amzn.to/3Pv0WdI
+amazon-video: https://amzn.to/3kDOFWl
+description: "I am not a huge horror fan, but what Eggers is doing here is creepy and unsettling in the most entertaining way."
+featured: true
+hidden: true
+rating: 3.5
+comments: false
+synopsis: In 1630s New England, William and Katherine lead a devout Christian life with five children, homesteading on the edge of an impassable wilderness, exiled from their settlement when William defies the local church. When their newborn son vanishes and crops mysteriously fail, the family turns on one another.
+youtube: iQXmlf3Sefg
+---
+
+When this movie was initially released I wasn't interested in it at all, a slow, ominous movie set in the 1600s New England didn't seem like it would be my cup of tea.  After watching the trailer for The Northman the first time I was intrigued and couldn't wait to see The Northman and that led me back to The Witch.  The writer/director <a href="https://www.imdb.com/name/nm3211470/">Robert Eggers</a> had not been on my radar, and after watching this movie, and The Northman I am interested on what his future work will be.  I have started watching The Lighthouse and so far I am not as captivated and enthralled by this movie but I can see the very deliberate and opinionated film here that might not resonate with me.
+
+This is the beginning of the working relationship between Robert Eggers and <a href="https://www.imdb.com/name/nm5896355/">Anya Taylor-Joy</a> that also introduced the world to her, and led to her becoming a bankable star.  There are few actors that have skyrocketted to the top of the industry like Anya, and she has now taken on roles as a lead, co-lead, supporting and even the lead of a television series Queen's Gambit.  She is extremely maliable and a great addition to any work she has been a part of so far and so much career ahead of her.  She has the ability to be vulnerable, innocent and in my opinion a future a-lister that will be a stalwart of Hollywood for decades to come.
+
+There are amazing performances across the board in this film from the mother (<a href="https://www.imdb.com/name/nm0225483/">Kate Dickie</a>), father (<a href="https://www.imdb.com/name/nm0408591/">Ralph Ineson</a>) and the siblings (Caleb <a href="https://www.imdb.com/name/nm4308860/">Harvey Scrimshaw</a>, Mercy (<a href="https://www.imdb.com/name/nm5636909/">Ellie Grainger</a> & Jonas (<a href="https://www.imdb.com/name/nm3453433/">Lucas Dawson</a> but we should really talk about Black Phillip who steals the movie  This black goat is the embodiment of evil, chaos and at once both humorous and terrifying.  Mercy whispering into Black Phillip's ear Baaah Baaah Baaah, then exclaiming Black Phillip says you are wicked will live rent-free in my head forever.  You should watch this movie because a singular vision and clear direction creates a film that feels almost like documentary about what life was like in the 1690s if there was something evil and ominous in the woods and your farm.
+
