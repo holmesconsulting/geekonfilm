@@ -8,8 +8,8 @@ image: "assets/images/posters/the-batman.jpg"
 amazon-physical: https://amzn.to/3vMV0E3
 amazon-video: https://amzn.to/3jPZXWP
 description: "I have said this a few times, and it is time to codify it in writing.  I think this is the best Batman adaptation ever made on film."
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 4.5
 comments: false
 synopsis: In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.
