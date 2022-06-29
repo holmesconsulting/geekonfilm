@@ -1,4 +1,3 @@
-
 ---
 layout: review
 title:  "Jurassic World Dominion"
