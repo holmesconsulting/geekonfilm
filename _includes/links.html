@@ -5,7 +5,7 @@
     <ul>
         {% if page.amazon-physical %}
         <li class="ml-1 mr-1">
-            <a target="_blank" href="{{ page.amazon-physical }}" onclick="window.open(this.href, 'amazon-physical', 'width=550,height=235');return false;">
+            <a target="_blank" href="{{ page.amazon-physical }}">
                 <img src="{{site.baseurl}}/assets/images/amazon-logo.png" alt="amazon logo" />
             </a>
         </li>
@@ -13,13 +13,13 @@
 
         {% if page.amazon-video %}
         <li class="ml-1 mr-1">
-            <a target="_blank" href="{{ page.amazon-video }}" onclick="window.open(this.href, 'amazon-prime-video-share', 'width=550,height=435');return false;">
+            <a target="_blank" href="{{ page.amazon-video }}">
                 <img src="{{site.baseurl}}/assets/images/amazon-prime-logo.png" alt="amazon prime video logo" />
             </a>
         </li>
         {% endif %}
         <!-- <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'width=550,height=435');return false;">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}">
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </li> -->
