@@ -1,6 +1,6 @@
 ---
 layout: podcast
-title: Geek on Film podcast
+title: Podcast Info
 permalink: /podcast
 comments: false
 ---

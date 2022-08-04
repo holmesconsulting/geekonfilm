@@ -11,53 +11,37 @@ permalink: "/podcast.html"
 <div class="container">
     <h1 class="posttitle">{{ page.title }}</h1>
 
-
-    <div class="row">
-        {% if site.authors %}
-        {% for item in site.authors %}
-        {% assign author = item[1] %}
-
-        <div class="col-lg-6 mb-4">
-            <div class="card">
-
-
-                <!-- Avatar -->
-                <div class="avatar mx-auto">
-                    <img src="{{site.baseurl}}/{{ author.avatar }}" class="card-img-top"
-                        alt="{{ author.display_name }}">
-                </div>
-
-                <!-- Content -->
-                <div class="card-body">
-                    <!-- Name -->
-                    <h5 class="card-title text-center">{{ author.name }} <a target="_blank" class="link-dark"
-                            href="{{ author.web }}">{{ author[1].display_name }} | </a><a target="_blank"
-                            href="{{ author.twitter }}"><img src="{{site.baseurl}}/assets/images/twitter-icon.png"
-                                alt="twitter icon" /></a> | <a target="_blank" href="{{ author.letterboxd }}"><img
-                                src="{{site.baseurl}}/assets/images/letterboxd-icon.png"
-                                alt="letterboxd icon" /></i></a>
-                        {% if author.serializd %}
-                            | <a target="_blank" href="{{ author.serializd }}">
-                            <img src="{{site.baseurl}}/assets/images/serializd-icon.png" alt="serializd icon" /></i></a>
-                        {% endif %}
-                        </h4>
-                    </h5>
-                        <hr>
-                        <!-- Quotation -->
-                        <p class="card-text">{{ author.description }}</p>
-                </div>
-
-            </div>
-
+    <section class="row">
+        <div class="col-lg-12 mb-6">
+            <hr />
+            <b>Current Episode:</b>
         </div>
+        
+    </section>
+    <section class="row">
+        <div class="col-lg-12 mb-6">
+            <iframe src="https://anchor.fm/geek-on-film/embed/episodes/Episode-1---So-much-TV---61122-e1lvruu/a-a8b2fqs" width="100%" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </section>
+    <section class="row">
+        <div class="col-xs-6 col-md-4"><a href="https://anchor.fm/geek-on-film"><img src="../assets/images/anchorfm.png" alt="Anchor.fm banner" /></a></div>
+        <div class="col-xs-6 col-md-4"><a href="https://open.spotify.com/show/41oS8ZDw5KuPDCpIuXFo1h"><img src="../assets/images/spotify.png" alt="Spotify banner"></a></div>
+        <div class="col-xs-6 col-md-4"><a href="https://podcasts.apple.com/us/podcast/geek-on-film/id1637502307"><img src="../assets/images/apple.png" alt="Apple Podcasts banner" /></a></div>
+
+    </section>
+    <section class="row">
+        <div class="col-xs-6 col-md-4"><a href="https://pca.st/2hqki82z"><img src="../assets/images/pocketcasts.svg" alt="Pocketcasts banner" /></a> </div>
+        <div class="col-xs-6 col-md-4"><a href="https://music.amazon.com/podcasts/78ba0096-12b7-4c38-9f49-0e52c387733f/geek-on-film"><img src="../assets/images/amazon.png" alt="Amazon Music banner" /></a></div>
+        <div class="col-xs-6 col-md-4"><a href="https://www.stitcher.com/podcast/geek-on-film"><img src="../assets/images/stitcher.png" alt="Stitcher Banner" /></a></div>
+
+    </section>
 
 
 
 
 
 
-        {% endfor %}
-        {% endif %}
+        
         </div>
         
 
