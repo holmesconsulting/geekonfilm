@@ -1,0 +1,140 @@
+---
+layout: default
+disqus: false
+archive: false
+post_class: post-template
+permalink: "/podcast.html"
+---
+
+<!-- Begin Article
+================================================== -->
+<div class="container">
+    <h1 class="posttitle">{{ page.title }}</h1>
+
+    <section class="row">
+        <div class="col-lg-12 mb-6">
+            <hr />
+            <b>Current Episode:</b>
+        </div>
+        
+    </section>
+    <section class="row">
+        <div class="col-lg-12 mb-6">
+            <iframe src="https://anchor.fm/geek-on-film/embed/episodes/Episode-1---So-much-TV---61122-e1lvruu/a-a8b2fqs" width="100%" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </section>
+    <section class="row">
+        <div class="col-xs-6 col-md-4"><a href="https://anchor.fm/geek-on-film"><img src="../assets/images/anchorfm.png" alt="Anchor.fm banner" /></a></div>
+        <div class="col-xs-6 col-md-4"><a href="https://open.spotify.com/show/41oS8ZDw5KuPDCpIuXFo1h"><img src="../assets/images/spotify.png" alt="Spotify banner"></a></div>
+        <div class="col-xs-6 col-md-4"><a href="https://podcasts.apple.com/us/podcast/geek-on-film/id1637502307"><img src="../assets/images/apple.png" alt="Apple Podcasts banner" /></a></div>
+
+    </section>
+    <section class="row">
+        <div class="col-xs-6 col-md-4"><a href="https://pca.st/2hqki82z"><img src="../assets/images/pocketcasts.svg" alt="Pocketcasts banner" /></a> </div>
+        <div class="col-xs-6 col-md-4"><a href="https://music.amazon.com/podcasts/78ba0096-12b7-4c38-9f49-0e52c387733f/geek-on-film"><img src="../assets/images/amazon.png" alt="Amazon Music banner" /></a></div>
+        <div class="col-xs-6 col-md-4"><a href="https://www.stitcher.com/podcast/geek-on-film"><img src="../assets/images/stitcher.png" alt="Stitcher Banner" /></a></div>
+
+    </section>
+
+
+
+
+
+
+        
+        </div>
+        
+
+
+
+
+
+        <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+        {% if site.adsense == "enabled" %}
+        {% include adsense-under-header.html %}
+        {% endif %}
+        <!-- End Adsense -->
+
+        <!-- Post Featured Image -->
+        {% if page.image %}
+
+        {% if site.lazyimages == "enabled" %}
+        <img class="featured-image img-fluid lazyimg"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
+            data-src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{%
+            endif %}" alt="{{ page.title }}">
+        {% else %}
+        <img class="featured-image img-fluid" src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{
+            site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+        {% endif %}
+
+        {% endif %}
+        <!-- End Featured Image -->
+
+        <!-- Post Content -->
+        <div class="article-post">
+            <!-- Toc if any -->
+            {% if page.toc %}
+            {% if page.beforetoc %}
+            <p><em>{{page.beforetoc}}</em></p>
+            {% endif %}
+            <div class="toc mt-4 mb-4 lead">
+                <h3 class="font-weight-bold">Summary</h3>
+                {% include toc.html html=content %}
+            </div>
+            {% endif %}
+            <!-- End Toc -->
+            {{content}}
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+    <!-- End Categories -->
+
+</div>
+<!-- End Post -->
+
+</div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+{% if page.comments != false %}
+<div class="container">
+    <div id="comments" class="row justify-content-center mb-5">
+        <div class="col-md-8">
+            {% include disqus.html %}
+        </div>
+    </div>
+</div>
+{% endif %}
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+{% if page.rating %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Thing",
+    "name": "{{ page.title }}"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "{{ author.display_name }}"
+  },
+  "datePublished": "{{ page.date | date:"%Y-%m-%d" }}",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ page.rating }}",
+    "bestRating": "5"
+  }
+}
+</script>
+{% endif %}
