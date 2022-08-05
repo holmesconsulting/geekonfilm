@@ -5,8 +5,8 @@ author: robbie
 categories: [ review ]
 tags: ['2022', streaming, showtime]
 image: "assets/images/posters/the-lost-city.jpg"
-amazon-physical: https://amzn.to/3Pv0WdI
-amazon-video: https://amzn.to/3kDOFWl
+amazon-physical: https://amzn.to/3Q1nR00
+amazon-video: https://amzn.to/3JvV4yn
 description: "This film was a totally fun romantic, comedy adventure in the vein of Romancing the Stone or even Raiders of the Lost Ark."
 featured: true
 hidden: true
