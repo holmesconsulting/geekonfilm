@@ -5,7 +5,8 @@ author: robbie
 categories: [ review ]
 tags: ['2022', regal]
 image: "assets/images/posters/jurassic-world-dom.jpg"
-amazon-physical: https://amzn.to/39YDxBF
+amazon-physical: https://amzn.to/3vH6eKV
+amazon-video: https://amzn.to/3Su31bh
 description: "Walking out of the theater I turned to my wife and said that was the worst experience I have had watching a film in a movie theater."
 featured: true
 hidden: true
