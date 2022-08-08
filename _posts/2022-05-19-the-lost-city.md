@@ -8,8 +8,8 @@ image: "assets/images/posters/the-lost-city.jpg"
 amazon-physical: https://amzn.to/3Q1nR00
 amazon-video: https://amzn.to/3JvV4yn
 description: "This film was a totally fun romantic, comedy adventure in the vein of Romancing the Stone or even Raiders of the Lost Ark."
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 3.5
 comments: false
 synopsis: A reclusive romance novelist was sure nothing could be worse than getting stuck on a book tour with her cover model until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.
