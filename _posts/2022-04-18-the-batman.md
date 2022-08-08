@@ -14,6 +14,9 @@ rating: 4.5
 comments: false
 synopsis: In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.
 youtube: mqqft2x_Aa4
+permalink: /review/robbie/:month-:day-:year/:title
+redirect_from:
+    - /the-batman/
 ---
 
 Go watch this on HBO Max now: https://www.hbomax.com/feature/the-batman
