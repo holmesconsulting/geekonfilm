@@ -14,7 +14,7 @@ rating: 0.5
 comments: false
 synopsis: Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history’s most fearsome creatures.
 youtube: fb5ELWi-ekk
-permalink: /review/robbie/:/:month-:day-:year/:title
+permalink: /review/robbie/:month-:day-:year/:title
 redirect_from:
   - /jurassic-world-dominion/
 ---
