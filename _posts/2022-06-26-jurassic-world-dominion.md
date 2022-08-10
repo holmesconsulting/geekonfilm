@@ -8,8 +8,8 @@ image: "assets/images/posters/jurassic-world-dom.jpg"
 amazon-physical: https://amzn.to/3vH6eKV
 amazon-video: https://amzn.to/3Su31bh
 description: "Walking out of the theater I turned to my wife and said that was the worst experience I have had watching a film in a movie theater."
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 0.5
 comments: false
 synopsis: Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history’s most fearsome creatures.
