@@ -74,4 +74,8 @@ adsense-data-ad-slot: "1363087678"
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
 
+collections:
+  podcasts:
+    output: true
+
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
