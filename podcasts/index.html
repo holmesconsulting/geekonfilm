@@ -12,7 +12,7 @@ redirect_from:
         <div class="col-lg-12 mb-6">
             <hr />
             <b>Current Episode: {{ current.episode-number | prepend: '00' | slice: -2, 2  }} - {{ current.title }}</b>
-            <p>Release Date: {{ current.date }}</p>
+            <p>Release Date: {{ current.date | date: '%B %d, %Y' }}</p>
         </div>
         
     </section>
