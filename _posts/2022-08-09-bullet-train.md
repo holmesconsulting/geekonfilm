@@ -8,13 +8,14 @@ image: "assets/images/posters/bullet-train.jpg"
 amazon-physical: https://amzn.to/3bFYUbL
 amazon-video: https://amzn.to/3A9wfFo
 description: "After hearing the premise and the first trailer dropped I was all in and about 20 minutes into the film I was wondering how long this film was going to be.  There are lots of fun moments and great performances but overall it is lacking in any substance."
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 2
 comments: false
 synopsis: Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.
 youtube: 0IOsk2Vlc4o
 permalink: /review/robbie/:month-:day-:year/:title
+podcast-episode: /podcasts/episode-03
 ---
 
 When I saw the initial trailer that is at the end of this review, I was so onboard and excited for this film.  And now less then 24 hours after seeing this film I can say, this is not a good film.  It is an amazingly stylish, neon colored string of scenes that loosely holds together in a single story.  That being said there are really good vignettes in this film, I would love to pitch the idea of a prequel movie of Lemon & Tangerine or take the 8-10 minutes of the Wolf's origin and suss it out to a full film.  I know we can't evaluate things based on what it could have been, but can we maybe could have had a prestige streaming series with more Japanese representation and let this extremely compressed story of scenes could have more time to breath and flesh out the overarching storyline.
