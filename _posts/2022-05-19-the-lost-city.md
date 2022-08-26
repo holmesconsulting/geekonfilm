@@ -17,7 +17,7 @@ youtube: nfKO9rYDmE8
 permalink: /review/robbie/:month-:day-:year/:title
 redirect_from:
     - /the-lost-city/
-    - /review/robbie/:/05-19-2022/the-lost-city/
+    - /review/robbie/:/05-19-2022/the-lost-city
 podcast-episode: /podcasts/episode-03
 ---
 
