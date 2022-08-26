@@ -14,9 +14,10 @@ rating: 3.5
 comments: false
 synopsis: A reclusive romance novelist was sure nothing could be worse than getting stuck on a book tour with her cover model until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.
 youtube: nfKO9rYDmE8
-permalink: /review/robbie/:/:month-:day-:year/:title
+permalink: /review/robbie/:month-:day-:year/:title
 redirect_from:
     - /the-lost-city/
+    - /review/robbie/:/05-19-2022/the-lost-city/
 podcast-episode: /podcasts/episode-03
 ---
 
