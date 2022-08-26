@@ -17,6 +17,7 @@ youtube: fb5ELWi-ekk
 permalink: /review/robbie/:month-:day-:year/:title
 redirect_from:
   - /jurassic-world-dominion/
+podcast-episode: /podcasts/episode-01
 ---
 
 Top line here is this movie wasn't good. 
