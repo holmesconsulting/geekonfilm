@@ -68,7 +68,7 @@ post_class: post-template
             <small>
                 <span class="post-date"><strong>Review Date: </strong><time class="post-date" datetime="{{ page.date | date:"%m-%d-%Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
                 {% if page.podcast-episode %}
-                 | <span>We discussed: <a href="{{ page.podcast-episode }}">listen here</a></span>
+                    | <span><strong>We discussed: </strong><a href="{{ page.podcast-episode }}">listen here</a></span>
                 {% endif %}
                 </span>           
                 {% if page.last_modified_at %}
