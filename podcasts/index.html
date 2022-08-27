@@ -13,7 +13,7 @@ description: "The home for the podcasts of our Geek on Film podcast."
         <div class="media-body">
             <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ item.episode-number }} - {{ item.title }}</h5></a>
             <iframe src={{ item.source }} width="100% frameborder="0" scrolling="no"></iframe>
-            <p><p>Record Date: {{ current.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></p>
+            <p><p>Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></p>
         </div>
       </div>
     {% endfor %}
