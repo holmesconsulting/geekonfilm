@@ -8,15 +8,18 @@ description: "The home for the podcasts of our Geek on Film podcast."
 ---
 <div class="container">
     {% for item in site.podcasts reversed %}
-    <div class="media py-2">
+    <div class="media">
         <img class="align-self-start mr-3" width="25%" src="{{ item.image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
         <div class="media-body">
             <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ item.episode-number }} - {{ item.title }}</h5></a>
-            <iframe src={{ item.source }} width="100% frameborder="0" scrolling="no"></iframe>
-            <p><p>Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></p>
+            <p>Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></p>
+            <div class="embed-responsive  embed-responsive-21by9">
+                <iframe class="embed-responsive-item" src={{ item.source }} width="100% frameborder="0" scrolling="no"></iframe>
+            </div>
         </div>
       </div>
+      <hr />
     {% endfor %}
-    <hr />
+    
     {% include podcast-services.html %}
     </div>
