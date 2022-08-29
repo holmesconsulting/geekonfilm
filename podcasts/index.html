@@ -9,7 +9,12 @@ description: "The home for the podcasts of our Geek on Film podcast."
 <div class="container">
     {% for item in site.podcasts reversed %}
     <div class="media">
-        <img class="align-self-start mr-3" width="25%" src="{{ item.image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
+        {% if item.episode-image %}
+            {% assign image = item.episode-image %}
+        {% else %}
+            {% assign image = item.image %}
+        {% endif %}
+        <img class="align-self-start mr-3" width="25%" src="{{ image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
         <div class="media-body">
             <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ item.episode-number }} - {{ item.title }}</h5></a>
             <p>Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></p>
