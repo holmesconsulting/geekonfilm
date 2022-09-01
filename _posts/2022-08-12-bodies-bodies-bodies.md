@@ -7,8 +7,8 @@ tags: ['2022', cinemark]
 image: "assets/images/posters/bodies.jpg"
 amazon-video: https://amzn.to/3SYdFHp
 description: One of the most interesting films that didn't work for me at all, the director, actors and other below the line folks do a great job, but I didn't enjoy the viewing experience (I don't think a 47 year old man who lives in the suburbs is the target audience).
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 2
 comments: false
 synopsis: "In an isolated family mansion, a group of rich 20-somethings decides to play Bodies Bodies Bodies, a game where one of them is secretly a “killer” while the rest tries to “escape”. Things take a turn for the worse when real bodies start turning up, setting off a paranoid and dangerous chain of events."  
