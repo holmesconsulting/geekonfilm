@@ -3,7 +3,7 @@ layout: review
 title:  "Uncut Gems"
 author: robbie
 categories: [ "film review"]
-tags: ['2019', 'rewatch', 'dolby atmos', 'steelbook']
+tags: ['2019', 'rewatch', 'dolby atmos', 'criterion collection']
 image: "assets/images/posters/uncut-gems-og.jpg"
 review-image: "assets/images/posters/uncut-gems-gof.jpg"
 amazon-physical: https://amzn.to/3CRAasc
