@@ -7,8 +7,8 @@ tags: ['2022', amc, podcast]
 image: "assets/images/posters/emily-the-criminal.jpg"
 amazon-physical: https://amzn.to/3cpceSa
 description: I am all in on Aubrey Plaza and think that this is film is a giant showcase for what she can do leading up films.  The titular character is the protagonist but I don't think she is at all a clear "good" person, the complexity and shades of gray are on display in every scene.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 3.5
 comments: false
 synopsis: "Emily, who is saddled with student debt and locked out of the job market due to a minor criminal record, gets involved in a credit card scam that pulls her into the criminal underworld of Los Angeles, ultimately leading to deadly consequences."  
