@@ -100,6 +100,10 @@ post_class: post-template
                     </div>
                 {% endif %}
                 <!-- End Toc -->
+                <p>
+                    <b>Synopsis:</b> {{ page.synopsis }}
+                </p>
+                <h2>Review: </h2>
                 {{content}}
                 {% if page.youtube %}
                     {% include youtube.html %}
