@@ -1,0 +1,28 @@
+---
+layout: review
+title:  "Silence of the Lambs"
+author: robbie
+categories: [ "film review", "home viewing"]
+tags: ['1991', rewatch, physical, "kino lorber"]
+image: "assets/images/posters/silence-og.jpg"
+review-image: "assets/images/posters/silence.jpg"
+amazon-physical: https://amzn.to/3qQO5aH
+amazon-video: https://amzn.to/3DCLZmd
+description: A film I saw maybe once in the late 1990s and it has grown in esteem and it's importance has grown.  This is one of the most affective action, thriller films of all time.
+featured: true
+hidden: true
+rating: 4.5
+comments: false
+synopsis: "Clarice Starling is a top student at the FBI's training academy. Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism. Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out."  
+youtube: W6Mm8Sbe__o
+permalink: /review/robbie/:month-:day-:year/:title
+---
+> I recently purchased the 30th Anniversary release of <a href="https://amzn.to/3qQO5aH">The Silence of the Lambs</a> from <a href="https://www.kinolorber.com/film/view/id/4968">Kino Lorber Classics</a> of this film so this is the watching experience I am going to discuss in this review not the theatrical or home viewing experience from back in 1990s.
+
+The hype for this film back in 1995 was amazing, the first time that <a href="https://www.imdb.com/name/nm0000134/">Robert De Niro</a> and <a href="https://www.imdb.com/name/nm0000199/">Al Pacino</a> would be on screen together EVER!  Two of the reigning greatest actors of our or any generation. Throw in a sharp, biting script written by Mister Miami Vice, <a href="https://www.imdb.com/name/nm0000520/">Michael Mann</a> himself and he was going to get to direct his masterpiece.  This movie might be the highpoint of the elevate crime action film that was being elevated by <a href="https://www.imdb.com/name/nm0000233/">Quentin Tarantino</a> in films like <a href="https://www.imdb.com/title/tt0105236/">Reservoir Dogs</a> and <a href="https://www.imdb.com/title/tt0110912/">Pulp Fiction</a> that is the extension of the genre Mann had already fanned the flames with with <a href="https://www.imdb.com/title/tt0083190/">Thief</a>. 
+
+The film opens with an armored truck heist, and the entire sequence is adraline filled, dynamic and aurally stunning with the truck being stopped by crashing a work truck into it at full speed, pushing it into a used car lot. I saw this film initially in the 1990s on VHS and a pretty standard home setup, seeing this today I have a <a href="https://amzn.to/3eMhnV3">65" Samsung Television</a> with a <a href="https://amzn.to/3Ljd8wh">Samsung A950 soundbar</a> that supports Dolby Atmos / DTS:X and it has never looked or sounded better. There was a lot of controversy with this 4k release, folks have complained that the entire film is dark and compared it constantly to the previous blu-ray release that was infused with this polished, almost plastic electric blue tinge. Put that all aside this film looks absolutely fantastic the new transfer was overseen by Mann himself, and the new HDR10 color grading is gives some warmth to the skin tones throughout the film. The audio track is the same as the one on the previously released definitive director's cut a DTS-HD MA 5.1 mix. Listening to Mann discuss capturing the gunfire from the final shootout practically with a lot of individual microphones all around the scene, and it really stands out as one of the more punishing and affective scenes. You truly feel like you are trapped in the middle of a heist gone sideways.
+
+The basic story is there is a high-end thief Neil McCauley, portrayed by Deniro, with a crew that can plan and steal extremely valuable targets and a successful detective Vincent Hanna, portrayed by Pacino, his unit that are capably taking down criminals in Los Angeles. There is an all-star cast filling out the two distinct groups.  The police squad is filled out with <a href="https://www.imdb.com/name/nm0371660/">Dennis Haysbert</a> as Don Breedan, <a href="https://www.imdb.com/name/nm0932112/">Mykelti Williamson</a> as Drucker, <a href="https://www.imdb.com/name/nm0836071/">Wes Studi</a> as Casals and <a href="https://www.imdb.com/name/nm0505971/">Ted Levine</a> as Bosko. Neil's crew is filled out with <a href="https://www.imdb.com/name/nm0000174/">Val Kilmer</a> as Chris Shiherlis, <a href="https://www.imdb.com/name/nm0001744/">Tom Sizemore</a> as Michael Cheritto, <a href="https://www.imdb.com/name/nm0001803/">Danny Trejo</a> as Trejo & the last minute addition to the crew Waingro played by <a href="https://www.imdb.com/name/nm0300824/">Kevin Gage</a> that is the ultimate achilles heel of the team.  There are so many amazing performances across the board including Nate the fence portrayed by <a href="https://www.imdb.com/name/nm0000685/">Jon Voight</a>, <a href="https://www.imdb.com/name/nm0893204/">Diane Venora</a> playing Justine Hanna, Vincent's longtime, frustrated wife, Charlene Shiherlis, Chris' wife played by <a href="https://www.imdb.com/name/nm0000171/">Ashley Judd</a> and closing out with <a href="https://www.imdb.com/name/nm0000312/">Amy Brenneman</a> as Eady, Neil's new found love interest.
+
+If you want to continue your time in Mann's Heat-a-verse he released <a href="https://amzn.to/3Lhql92" alt="Heat 2 Book link on Amazon">the book</a> Heat 2 (also available as an <a href="https://amzn.to/3xqESJR" alt="Heat 2 audiobook link on Amazon">audiobook</a>) 
