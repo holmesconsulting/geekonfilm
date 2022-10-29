@@ -4,8 +4,9 @@ title:  "Silence of the Lambs"
 author: robbie
 categories: [ "film review", "home viewing"]
 tags: ['1991', rewatch, physical, "kino lorber"]
-image: "assets/images/posters/silence-og.jpg"
-review-image: "assets/images/posters/silence.jpg"
+image: "assets/images/review/silence-og.jpg"
+square-image: "assets/images/review/silence-sq.jpg"
+review-image: "assets/images/review/silence.jpg"
 amazon-physical: https://amzn.to/3qQO5aH
 amazon-video: https://amzn.to/3DCLZmd
 description: Probably one of the most well known films of the 90s, I couldn't be more invested in this rewatch and revisit this tense, twist filled masterpiece.
