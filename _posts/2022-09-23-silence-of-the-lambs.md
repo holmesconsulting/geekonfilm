@@ -10,8 +10,8 @@ review-image: "assets/images/review/silence.jpg"
 amazon-physical: https://amzn.to/3qQO5aH
 amazon-video: https://amzn.to/3DCLZmd
 description: Probably one of the most well known films of the 90s, I couldn't be more invested in this rewatch and revisit this tense, twist filled masterpiece.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 4.5
 comments: false
 synopsis: "Clarice Starling is a top student at the FBI's training academy. Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism. Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out."  
