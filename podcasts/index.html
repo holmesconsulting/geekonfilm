@@ -8,24 +8,38 @@ description: "The home for the podcasts of our Geek on Film podcast."
 ---
 <div class="container">
     {% for item in site.podcasts reversed %}
-    <div class="media">
-        {% if item.episode-image %}
-            {% assign image = item.episode-image %}
-        {% else %}
-            {% assign image = item.image %}
-        {% endif %}
-        <img class="align-self-start mr-3" width="30%" src="{{ image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
-        <div class="media-body">
-            <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ item.episode-number | prepend: '00' | slice: -2, 2 }} - {{ item.title }}</h5></a>
-            <div class="small">Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
-            <hr />
-            <p class="lead">{{ item.description }}</p>
-            <div class="embed-responsive  embed-responsive-21by9">
-                <iframe class="embed-responsive-item" src={{ item.source }} width="100% frameborder="0" scrolling="no"></iframe>
+        {% if forloop.first == true %}
+        <h1>Current episode: </h1>    
+        <div class="media pb-4">
+                
+                {% if item.episode-image %}
+                    {% assign image = item.episode-image %}
+                {% else %}
+                    {% assign image = item.image %}
+                {% endif %}
+                <img class="align-self-start mr-3" width="30%" src="{{ image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
+                <div class="media-body">
+                    <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ item.episode-number | prepend: '00' | slice: -2, 2 }} - {{ item.title }}</h5></a>
+                    <div class="small">Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
+                    <hr />
+                    <p class="lead">{{ item.description }}</p>
+                    <div>
+                        <iframe src={{ item.source }} width="100% frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
             </div>
-        </div>
-      </div>
-      <hr />
+        {% else %}    
+            <div class="media border-top py-2">
+                <img class="align-self-start mr-3" width="30%" src="{{ item.image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
+                <div class="media-body">
+                    <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ item.episode-number | prepend: '00' | slice: -2, 2 }} - {{ item.title }}</h5></a>
+                    <div class="small">Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
+                    <hr />
+                    <p class="lead">{{ item.description | truncatewords: 20 }}</p>
+                </div>
+            </div>
+        {% endif %}
+
     {% endfor %}
     
     {% include podcast-services.html %}
