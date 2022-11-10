@@ -17,6 +17,8 @@ comments: false
 synopsis: "Set in 1982 in the suburb of Blackeberg, Stockholm, twelve-year-old Oskar is a lonely outsider, bullied at school by his classmates; at home, Oskar dreams of revenge against a trio of bullies. He befriends his twelve-year-old, next-door neighbor Eli, who only appears at night in the snow-covered playground outside their building."  
 youtube: BoPJJSXZDEM
 permalink: /review/robbie/:month-:day-:year/:title
+redirect_from:
+    - /review/robbie/11-01-2022/let-the-right-one-in
 ---
 > I recently purchased the Blu-ray release of <a href="https://amzn.to/3eDM1jO">Let the Right One In</a> of this film so this is the watching experience I am going to discuss in this review not the streaming experience on <a href="https://amzn.to/3gaWl3c">Amazon Prime</a>.  My setup at home is  <a href="https://amzn.to/3eMhnV3">65" Samsung Television</a> with a <a href="https://amzn.to/3Ljd8wh">Samsung A950 soundbar</a> and the <a href="https://amzn.to/3LBgyuL">Sony UBP-X800M2 4K Blu-Ray Player</a>
 
