@@ -16,6 +16,7 @@ comments: false
 synopsis: "A charismatic New York City jeweler always on the lookout for the next big score makes a series of high-stakes bets that could lead to the windfall of a lifetime. Howard must perform a precarious high-wire act, balancing business, family, and encroaching adversaries on all sides in his relentless pursuit of the ultimate win."  
 youtube: vTfJp2Ts9X8
 permalink: /review/robbie/:month-:day-:year/:title
+podcast-episode: /podcasts/episode-06
 ---
 > I recently purchased the Criterion Collection 4K release of this film so this is the watching experience I am going to discuss in this review not the theatrical experience from back in 2019.
 
