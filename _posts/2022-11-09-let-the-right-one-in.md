@@ -17,6 +17,7 @@ comments: false
 synopsis: "Set in 1982 in the suburb of Blackeberg, Stockholm, twelve-year-old Oskar is a lonely outsider, bullied at school by his classmates; at home, Oskar dreams of revenge against a trio of bullies. He befriends his twelve-year-old, next-door neighbor Eli, who only appears at night in the snow-covered playground outside their building."  
 youtube: BoPJJSXZDEM
 permalink: /review/robbie/:month-:day-:year/:title
+podcast-episode: /podcasts/episode-11
 redirect_from:
     - /review/robbie/11-01-2022/let-the-right-one-in
 ---
