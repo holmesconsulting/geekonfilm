@@ -10,7 +10,7 @@ description: "The home for the podcasts of our Geek on Film podcast."
     {% for item in site.podcasts reversed %}
         {% if forloop.first == true %}
         <h1>Current episode: </h1>    
-        <div class="media pb-4">
+        <div class="media p-2 bg-light rounded border border-dark">
                 
                 {% if item.episode-image %}
                     {% assign image = item.episode-image %}
