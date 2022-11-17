@@ -1,0 +1,31 @@
+---
+layout: review
+title:  "Reservoir Dogs"
+author: robbie
+categories: [ "film review", "home viewing"]
+tags: ['1992', 'rewatch', 'steekbook']
+image: "assets/images/review/reservior-dogs-og.jpg"
+review-image: "assets/images/review/reservior-dogs.jpg"
+square-image: "assets/images/review/reservior-dogs-sq.jpg"
+amazon-physical: https://amzn.to/3GhUEMp
+amazon-video: https://amzn.to/3EblUcN
+description: This is the film that changed how I thought about film, it changed my perspective on what movies could be, and was probably the film I watched more then any other in the 1990s.
+featured: true
+hidden: true
+rating: 3.5
+comments: false
+synopsis: "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel."  
+youtube: vayksn4Y93A
+permalink: /review/robbie/:month-:day-:year/:title
+---
+> I recently purchased the <a href="https://www.bestbuy.com/site/reservoir-dogs-steelbook-includes-digital-copy-4k-ultra-hd-blu-ray-blu-ray-only--best-buy-1992/6521312.p?skuId=6521312">4K Steelbook</a> from Best Buy of this film. The slipcover and steelbook really are a great and unique cover: 
+![Image of the Reservoir Dogs Steelbook from Best Buy](/assets/images/review/rd-bb.jpg)
+ An amazing 4k transfer and this review is my watch of this new 4k release not the theatrical experience from back in 1990s or the dozens of watches on VHS, SACD, DVD or Blu-ray.
+
+This film truly was an indie darling after premiering at Sundance Film Festival in 1992 and the distribution rights were purchased by Miramax and this film landed [Quentin Tarantino](https://www.imdb.com/name/nm0000233/) as an anchor of modern independent film scene. This film changed how this budding cinephile thought about film, and really established a baseline for what "cinema" should be, and the film I definitely compared all future films to for a decade. hype for this film back in 1995 was amazing, the first time that <a href="https://www.imdb.com/name/nm0000134/">Robert De Niro</a> and <a href="https://www.imdb.com/name/nm0000199/">Al Pacino</a> would be on screen together EVER!  Two of the reigning greatest actors of our or any generation. Throw in a sharp, biting script written by Mister Miami Vice, <a href="https://www.imdb.com/name/nm0000520/">Michael Mann</a> himself and he was going to get to direct his masterpiece.  This movie might be the highpoint of the elevate crime action film that was being elevated by <a href="https://www.imdb.com/name/nm0000233/">Quentin Tarantino</a> in films like <a href="https://www.imdb.com/title/tt0105236/">Reservoir Dogs</a> and <a href="https://www.imdb.com/title/tt0110912/">Pulp Fiction</a> that is the extension of the genre Mann had already fanned the flames with with <a href="https://www.imdb.com/title/tt0083190/">Thief</a>. 
+
+The film opens with an armored truck heist, and the entire sequence is adraline filled, dynamic and aurally stunning with the truck being stopped by crashing a work truck into it at full speed, pushing it into a used car lot. I saw this film initially in the 1990s on VHS and a pretty standard home setup, seeing this today I have a <a href="https://amzn.to/3eMhnV3">65" Samsung Television</a> with a <a href="https://amzn.to/3Ljd8wh">Samsung A950 soundbar</a> that supports Dolby Atmos / DTS:X and it has never looked or sounded better. There was a lot of controversy with this 4k release, folks have complained that the entire film is dark and compared it constantly to the previous blu-ray release that was infused with this polished, almost plastic electric blue tinge. Put that all aside this film looks absolutely fantastic the new transfer was overseen by Mann himself, and the new HDR10 color grading is gives some warmth to the skin tones throughout the film. The audio track is the same as the one on the previously released definitive director's cut a DTS-HD MA 5.1 mix. Listening to Mann discuss capturing the gunfire from the final shootout practically with a lot of individual microphones all around the scene, and it really stands out as one of the more punishing and affective scenes. You truly feel like you are trapped in the middle of a heist gone sideways.
+
+The basic story is there is a high-end thief Neil McCauley, portrayed by Deniro, with a crew that can plan and steal extremely valuable targets and a successful detective Vincent Hanna, portrayed by Pacino, his unit that are capably taking down criminals in Los Angeles. There is an all-star cast filling out the two distinct groups.  The police squad is filled out with <a href="https://www.imdb.com/name/nm0371660/">Dennis Haysbert</a> as Don Breedan, <a href="https://www.imdb.com/name/nm0932112/">Mykelti Williamson</a> as Drucker, <a href="https://www.imdb.com/name/nm0836071/">Wes Studi</a> as Casals and <a href="https://www.imdb.com/name/nm0505971/">Ted Levine</a> as Bosko. Neil's crew is filled out with <a href="https://www.imdb.com/name/nm0000174/">Val Kilmer</a> as Chris Shiherlis, <a href="https://www.imdb.com/name/nm0001744/">Tom Sizemore</a> as Michael Cheritto, <a href="https://www.imdb.com/name/nm0001803/">Danny Trejo</a> as Trejo & the last minute addition to the crew Waingro played by <a href="https://www.imdb.com/name/nm0300824/">Kevin Gage</a> that is the ultimate achilles heel of the team.  There are so many amazing performances across the board including Nate the fence portrayed by <a href="https://www.imdb.com/name/nm0000685/">Jon Voight</a>, <a href="https://www.imdb.com/name/nm0893204/">Diane Venora</a> playing Justine Hanna, Vincent's longtime, frustrated wife, Charlene Shiherlis, Chris' wife played by <a href="https://www.imdb.com/name/nm0000171/">Ashley Judd</a> and closing out with <a href="https://www.imdb.com/name/nm0000312/">Amy Brenneman</a> as Eady, Neil's new found love interest.
+
+If you want to continue your time in Mann's Heat-a-verse he released <a href="https://amzn.to/3Lhql92" alt="Heat 2 Book link on Amazon">the book</a> Heat 2 (also available as an <a href="https://amzn.to/3xqESJR" alt="Heat 2 audiobook link on Amazon">audiobook</a>) 
