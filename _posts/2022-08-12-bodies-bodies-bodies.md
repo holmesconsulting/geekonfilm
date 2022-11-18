@@ -7,7 +7,6 @@ tags: ['2022', cinemark]
 image: "assets/images/review/bodies-bodies-bodies-og.jpg"
 review-image: "assets/images/review/bodies-bodies-bodies.jpg"
 square-image: "assets/images/review/bodies-bodies-bodies-sq.jpg"
-
 amazon-video: https://amzn.to/3SYdFHp
 description: One of the most interesting films that didn't work for me at all, the director, actors and other below the line folks do a great job, but I didn't enjoy the viewing experience (I don't think a 47 year old man who lives in the suburbs is the target audience).
 featured: false
