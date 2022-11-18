@@ -4,7 +4,9 @@ title:  "Bullet Train"
 author: robbie
 categories: [ review ]
 tags: ['2022', amc, alist, imax]
-image: "assets/images/posters/bullet-train.jpg"
+image: "assets/images/review/bullet-train-og.jpg"
+review-image: "assets/images/review/bullet-train.jpg"
+square-image: "assets/images/review/bullet-train-sq.jpg"
 amazon-physical: https://amzn.to/3bFYUbL
 amazon-video: https://amzn.to/3A9wfFo
 description: "After hearing the premise and the first trailer dropped I was all in and about 20 minutes into the film I was wondering how long this film was going to be.  There are lots of fun moments and great performances but overall it is lacking in any substance."
