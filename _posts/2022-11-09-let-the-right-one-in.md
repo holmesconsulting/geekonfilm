@@ -10,8 +10,8 @@ review-image: "assets/images/review/let-the-right-one-in.jpg"
 amazon-physical: https://amzn.to/3eDM1jO
 amazon-video: https://amzn.to/3gaWl3c
 description: The best horror film I have seen this year, there is more humanity, intimacy and believable scenes in this film then in all the others I have watched.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 5
 comments: false
 synopsis: "Set in 1982 in the suburb of Blackeberg, Stockholm, twelve-year-old Oskar is a lonely outsider, bullied at school by his classmates; at home, Oskar dreams of revenge against a trio of bullies. He befriends his twelve-year-old, next-door neighbor Eli, who only appears at night in the snow-covered playground outside their building."  
