@@ -4,7 +4,9 @@ title:  "Jurassic World Dominion"
 author: robbie
 categories: [ review ]
 tags: ['2022', regal]
-image: "assets/images/posters/jurassic-world-dom.jpg"
+image: "assets/images/review/jurassic-world-dominion-og.jpg"
+review-image: "assets/images/review/jurassic-world-dominion.jpg"
+square-image: "assets/images/review/jurassic-world-dominion-sq.jpg"
 amazon-physical: https://amzn.to/3vH6eKV
 amazon-video: https://amzn.to/3Su31bh
 description: "Walking out of the theater I turned to my wife and said that was the worst experience I have had watching a film in a movie theater."

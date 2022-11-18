@@ -4,7 +4,9 @@ title:  "Emily the Criminal"
 author: robbie
 categories: [ "film review" ]
 tags: ['2022', amc, podcast]
-image: "assets/images/posters/emily-the-criminal.jpg"
+image: "assets/images/review/emily-the-criminal-og.jpg"
+review-image: "assets/images/review/emily-the-criminal.jpg"
+square-image: "assets/images/review/emily-the-criminal-sq.jpg"
 amazon-physical: https://amzn.to/3cpceSa
 description: I am all in on Aubrey Plaza and think that this is film is a giant showcase for what she can do leading up films.  The titular character is the protagonist but I don't think she is at all a clear "good" person, the complexity and shades of gray are on display in every scene.
 featured: false

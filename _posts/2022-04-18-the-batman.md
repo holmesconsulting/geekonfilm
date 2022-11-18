@@ -4,7 +4,9 @@ title:  "The Batman"
 author: robbie
 categories: [ review ]
 tags: ['2022', hbomax, streaming, 'dolby atmos']
-image: "assets/images/posters/the-batman.jpg"
+image: "assets/images/review/the-batman-og.jpg"
+review-image: "assets/images/review/the-batman.jpg"
+square-image: "assets/images/review/the-batman-sq.jpg"
 amazon-physical: https://amzn.to/3SENpC2
 amazon-video: https://amzn.to/3OWF49L
 description: "I have said this a few times, and it is time to codify it in writing.  I think this is the best Batman adaptation ever made on film."
