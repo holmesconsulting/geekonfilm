@@ -6,19 +6,15 @@
     <span>&laquo; Prev</span>
   {% endif %}
 
-  
-
-{% if paginator.page_trail %}
-  {% for trail in paginator.page_trail %}
-      {% assign classes = "ml-1" ,"mr-1" %}
-      {% if page.url == trail.path %}
-        <span class="ml-1 mr-1 selected">{{ trail.num }}</span>
-      {% else %}
-        <a class="ml-1"href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
-      {% endif %}
-    <!-- </li> -->
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="ml-1 mr-1">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a class="ml-1 mr-1" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a class="ml-1 mr-1" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
   {% endfor %}
-{% endif %}
 
   {% if paginator.next_page %}
     <a class="ml-1 mr-1" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
