@@ -5,10 +5,14 @@ redirect_from:
 title: Podcasts
 image: "/assets/images/gof-podcasters.jpg"
 description: "The home for the podcasts of our Geek on Film podcast."
+pagination:
+    enabled: true 
+    collection: podcasts
+    per_page: 5
 ---
 <div class="container">
-    {% for item in site.podcasts reversed %}
-        {% if forloop.first == true %}
+    {% for item in paginator.posts %} 
+        {% if forloop.first == true and page.url == paginator.first_page_path %}
         <h1>Current episode: </h1>    
         <div class="media p-2 bg-light rounded border border-dark">
                 
@@ -41,6 +45,14 @@ description: "The home for the podcasts of our Geek on Film podcast."
         {% endif %}
 
     {% endfor %}
+    <!-- Pagination
+================================================== -->
+<div class="bottompagination">
+    <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+    <span class="navigation" role="navigation">
+        {% include pagination.html %}
+    </span>
+    </div>
     
     {% include podcast-services.html %}
     </div>
