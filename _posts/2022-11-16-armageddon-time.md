@@ -9,8 +9,8 @@ square-image: "assets/images/review/armageddon-time-sq.jpg"
 review-image: "assets/images/review/armageddon-time.jpg"
 amazon-physical: https://amzn.to/3UzA7ap
 description: A film that surfaces a lot of really thorny issues and realities of growing up in NYC in the 1980s without truly interrogating or reckoning with those problems.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 3
 comments: false
 synopsis: "A deeply personal story about the strength of family, the complexity of friendship, and the generational pursuit of the American Dream."  
