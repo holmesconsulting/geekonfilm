@@ -10,16 +10,16 @@ description: "The home for the podcasts of our Geek on Film podcast."
     {% for item in site.podcasts reversed %}
         {% if forloop.first == true %}
         <h1>Current episode: </h1>    
-        <div class="media p-2 bg-light rounded border border-dark">
-                
-                {% if item.episode-image %}
-                    {% assign image = item.episode-image %}
-                {% else %}
-                    {% assign image = item.image %}
-                {% endif %}
-                <img class="align-self-start mr-3" width="30%" src="{{ image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
+        <div class="media p-2 bg-light rounded border border-dark">        
+        {% if item.episode-image %}
+            {% assign image = item.episode-image %}
+        {% else %}
+            {% assign image = item.image %}
+        {% endif %}
+        {% assign episode_number = item.episode-number %}
+                <img class="align-self-start mr-3" width="30%" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
                 <div class="media-body">
-                    <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ item.episode-number | prepend: '00' | slice: -2, 2 }} - {{ item.title }}</h5></a>
+                    <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ episode_number }} - {{ item.title }}</h5></a>
                     <div class="small">Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
                     <hr />
                     <p class="lead">{{ item.description }}</p>
