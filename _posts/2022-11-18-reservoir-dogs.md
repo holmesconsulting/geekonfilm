@@ -10,8 +10,8 @@ square-image: "assets/images/review/reservior-dogs-sq.jpg"
 amazon-physical: https://amzn.to/3GhUEMp
 amazon-video: https://amzn.to/3EblUcN
 description: This is the film that changed how I thought about film, it changed my perspective on what movies could be, and was probably the film I watched more then any other in the 1990s.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 3.5
 comments: false
 synopsis: "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel."  
