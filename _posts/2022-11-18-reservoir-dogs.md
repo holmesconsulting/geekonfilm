@@ -3,7 +3,7 @@ layout: review
 title:  "Reservoir Dogs"
 author: robbie
 categories: [ "film review", "home viewing"]
-tags: ['1992', 'rewatch', 'steekbook']
+tags: ['1992', 'rewatch', 'steelbook']
 image: "assets/images/review/reservior-dogs-og.jpg"
 review-image: "assets/images/review/reservior-dogs.jpg"
 square-image: "assets/images/review/reservior-dogs-sq.jpg"

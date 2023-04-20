@@ -9,8 +9,8 @@ review-image: "assets/images/review/triangle-of-sadness.jpg"
 square-image: "assets/images/review/triangle-of-sadness-sq.jpg"
 amazon-video: https://amzn.to/3IReIXi
 description: The first viewing of this film was my favorite experience of Middleburg Film Festival in 2022, and then I was able to show my wife and friends this film at my home on my home theater setup off Apple TV.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 4.5
 comments: false
 synopsis: "A celebrity model couple are invited on a luxury cruise for the uber-rich, helmed by an unhinged captain. What first appeared Instagrammable ends catastrophically, leaving the survivors stranded on a desert island and fighting for survival."  
