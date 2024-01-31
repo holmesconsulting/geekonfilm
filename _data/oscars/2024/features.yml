@@ -1,0 +1,158 @@
+- title: American Fiction
+  info:
+    streaming: [] 
+    documentary: false
+- title: American Symphony
+  info:
+    streaming: 
+      - service: netflix
+        link: https://www.netflix.com/title/81728930
+    documentary: true
+- title: Anatomy of a Fall
+  info:
+      streaming: []
+      documentary: false
+- title: Barbie
+  info:
+    streaming: []
+    documentary: false
+- title: "Babi Wine: The People's President"
+  info:
+    streaming: []
+    documentary: true
+- title: The Boy and the Heron
+  info:
+    streaming: []
+    documentary: false
+- title: The Color Purple
+  info:
+    streaming: []
+    documentary: false
+- title: The Creator
+  info:
+    streaming: []
+    documentary: false
+- title: El Conde
+  info:
+    streaming: []
+    documentary: false
+- title: Elemental
+  info:
+    streaming: []
+    documentary: false
+- title: The Eternal Memory
+  info:
+    streaming: []
+    documentary: true
+- title: "Flamin' Hot"
+  info:
+    streaming: []
+    documentary: false
+- title: Four Daughters
+  info:
+    streaming: []
+    documentary: true
+- title: Godzilla Minus One
+  info:
+    streaming: []
+    documentary: false
+- title: Golda
+  info:
+    streaming: []
+    documentary: false
+- title: Guardian of the Galaxy Vol. 3
+  info:
+    streaming: []
+    documentary: false
+- title: The Holdovers
+  info:
+    streaming: []
+    documentary: false
+- title: Indiana Jones and the Dial of Destiny
+  info:
+    streaming: []
+    documentary: false
+- title: Io Capitano
+  info:
+    streaming: []
+    documentary: false
+- title: Killers of the Flower Moon
+  info:
+    streaming: []
+    documentary: false
+- title: Maestro
+  info:
+    streaming: []
+    documentary: false
+- title: May December
+  info:
+    streaming: []
+    documentary: false
+- title: Mission Impossible - Dead Reckoning
+  info:
+    streaming: []
+    documentary: false
+- title: American Fiction
+  info:
+    streaming: []
+    documentary: false
+- title: Napoleon
+  info:
+    streaming: []
+    documentary: false
+- title: Nimona
+  info:
+    streaming: []
+    documentary: false
+- title: Nyad
+  info:
+    streaming: []
+    documentary: false
+- title: Oppenheimer
+  info:
+    streaming: []
+    documentary: false
+- title: Past Lives
+  info:
+    streaming: []
+    documentary: false
+- title: Perfect Days
+  info:
+    streaming: []
+    documentary: false
+- title: Poor Things
+  info:
+    streaming: []
+    documentary: false
+- title: Robot Dreams
+  info:
+    streaming: []
+    documentary: false
+- title: Rustin
+  info:
+    streaming: []
+    documentary: false
+- title: Society of the Snow
+  info:
+    streaming: []
+    documentary: false
+- title: "Spider-Man: Across the Spider-Verse"
+  info:
+    streaming: []
+    documentary: false
+- title: "The Teachers' Lounge"
+  info:
+    streaming: []
+    documentary: false
+- title: To Kill a Tiger
+  info:
+    streaming: []
+    documentary: false
+- title: 20 Days of Mariupol
+  info:
+    streaming: []
+    documentary: true
+- title: The Zone of Interest
+  info:
+    streaming: []
+    documentary: false
