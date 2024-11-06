@@ -10,8 +10,8 @@ square-image: "assets/images/review/challengers-sq.jpg"
 amazon-physical: https://a.co/d/bEMSRyQ
 amazon-video: https://www.amazon.com/gp/video/detail/B0CX5N14NW/
 description: Sweaty, sexy and intense are the three adjectives that have resonated with me about this film in the last few days since my theater experience.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 3.5
 comments: false
 synopsis: "Tennis player turned coach Tashi has taken her husband, Art, and transformed him into a world-famous Grand Slam champion. To jolt him out of his recent losing streak, she signs him up for a \"Challenger\" event — close to the lowest level of pro tournament — where he finds himself standing across the net from his former best friend and Tashi's former boyfriend."  
