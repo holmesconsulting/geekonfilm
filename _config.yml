@@ -1,14 +1,14 @@
 # Site
 name: "Geek on Film"
 title: "Geek on Film"
-description: "Home of the reviews and podcast for the hosts of Geek On Film.  Great conversations ahead, spoilers ahoy!"
-logo: 'assets/images/gof-logo.png'
-wide-logo: 'assets/images/logo-wide.png'
+description: "Home of the reviews and the Geek On Film podcast.  Great conversations ahead, spoilers ahoy!"
+logo: 'assets/images/gof-new-logo.png'
+wide-logo: 'assets/images/gof-header.png'
 favicon: 'assets/images/favicon.ico'
 google_analytics: 'G-K0FZMDHZKE'
 disqus: 'geek-on-film'
 mailchimp-list: 'https://geekonfilm.us14.list-manage.com/subscribe/post?u=5dba67fa5e66c0a8fe02ce5ef&amp;id=eb11fc6452'
-mailchimp-logo: 'assets/images/mailchimp-footer.png'
+mailchimp-logo: 'assets/images/footer-logo.png'
 twitter: https://twitter.com/GeekOnFilmCom
 twitter-handle: GeekOnFilmCom
 include: ["_pages"]
