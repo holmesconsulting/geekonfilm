@@ -4,12 +4,12 @@ title:  "The Substance"
 author: robbie
 categories: [ "film review"]
 tags: ['2024', 'At Home']
-image: "assets/images/review/the-substance-gof-og.jpg"
+image: "assets/images/review/wicked-gof-og.jpg"
 review-image: "assets/images/review/the-substance-gof.jpg"
 square-image: "assets/images/review/the-substance-gof-sq.jpg"
 description: Elizabeth Sparkle, an television exercise star turns 50 years old and is pushed out of her show with the want for a younger replacement, she ends up with a pitch for something called the substance that will create a better version of yourself.  She decides it is worth it and this chaotic and important movie follows what happens next.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 3.5
 comments: false
 synopsis: "A fading celebrity takes a black-market drug: a cell-replicating substance that temporarily creates a younger, better version of herself."  
