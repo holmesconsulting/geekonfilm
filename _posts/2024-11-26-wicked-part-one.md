@@ -1,0 +1,33 @@
+---
+layout: review
+title:  "Wicked - Part One"
+author: robbie
+categories: [ "film review"]
+tags: ['2024', 'Dolby Cinema']
+image: "assets/images/review/wicked-gof-og.jpg"
+review-image: "assets/images/review/wicked-gof.jpg"
+square-image: "assets/images/review/wicked-gof-sq.jpg"
+description: The musical prequel to the Wizard of Oz that introduces the most prominent witches and how Elpheba became the Wicked Witch.
+featured: true
+hidden: true
+rating: 4
+comments: false
+synopsis: "Elphaba, a misunderstood young woman because of her green skin, and Glinda, a popular girl, become friends at Shiz University in the Land of Oz. After an encounter with the Wonderful Wizard of Oz, their friendship reaches a crossroads."  
+youtube: 6COmYeLsz4c?si=zRjnFnCPqfMlvId3
+permalink: /review/robbie/:month-:day-:year/:title
+---
+My history with Wicked is long and affectionate, I was lucky enough to see most of the original cast (Joey MacKentire as Fiaro).  I was a pretty avid theater nerd at this point of my life, and was completely blown away by the show and the amazing Kristen Chenoweth and Idena Menzel.  I have followed both of their careers and will always love the original pink and green duo. As for the Wizard of Oz, I am an almost 50 year old man who grew up in America and was a fan from childhood of the amazing technicolor masterpiece.  I felt lucky enough to have grown up in a time where certain films were annual watches and for me the Wizard of Oz was a film I was always happy to consume.  Of course as I headed towards my teen years I was a bit over the aspects of the film that felt hooky and overly sentimental but as a budding cinefile in my mid to late 20s I was back in and a staunch defender of the seminal work.
+
+The film opend in the Land of Oz with the  the citizens of Munchkinland celebrating the death of the Wicked Witch of the West. What I love about the intro to the show and the film is the use of the multiple character and themes from future songs, when the soaring instramental version the oft repeated Unstoppable was the first tear I shed in the theater. We see Glinda the Good Witch arrive on her bubble platform, and we get our first look at the perfectly cast [Ariana Grande](https://www.imdb.com/name/nm3812858/).  I love the song that underscore this entire scene, No One Mourns the Wicked nad is the perfect backdrop to the elated villagers burned in effegy of the Wicked Witch. tells the Witch's story: born from an affair between Melena, the wife of then-Governor Frexspar Thropp, and a traveling salesman, she was rejected from birth due to her unnaturally green skin, which led her to have a troubled childhood ("No One Mourns the Wicked"). When asked if she and the Witch were friends, Glinda replies that they knew each other and reflects on their past.
+
+Years earlier, Elphaba Thropp arrives at the prestigious Shiz University to see off her younger paraplegic sister Nessa ("Dear Old Shiz"), where the students mock her green skin. She meets a younger Glinda, then named Galinda Upland. Despite not initially being enrolled as a student, Madame Morrible, Dean of Sorcery, takes Elphaba under her tutelage after Elphaba unintentionally reveals her magical powers ("The Wizard and I"), and makes Elphaba and Galinda share a bedroom to the discontent of both ("What Is This Feeling?"). During the semester, Nessa befriends Boq Woodsman, a happy-go-lucky Munchkin who has a crush on Galinda, while Elphaba encounters Fiyero Tigelaar, a rebellious Winkie Prince with whom Galinda is in love.
+
+One of Shiz's professors, a talking Goat, Dr. Dillamond, informs Elphaba that other talkative Animals around the land are losing their civil rights and abilities to speak, fearing he may be next ("Something Bad"). Elphaba assures Dillamond that Oz's ruler, a wizard she idolizes and hopes may change her skin color, will handle the matter.
+
+Fiyero soon arranges a night of clubbing at the Ozdust Ballroom. Galinda convinces Boq to take Nessa so that she can go with Fiyero ("Dancing Through Life"). At the Ozdust, Galinda learns she will be allowed in Morrible's sorcery seminar at Elphaba's request as thanks for convincing Boq to ask out Nessa. Elphaba is mocked when she wears a hat Galinda gave to her as a slight. Feeling guilty for mistreating Elphaba, Galinda dances with her ("Ozdust Duet") and later repays Elphaba's kindness by giving her a makeover ("Popular").
+
+The next day, Dr. Dillamond announces he is retiring due to Animals now being disallowed to work at Shiz. His replacement, the unscrupulous Professor Nikidik, attempts to do a live experiment on a frightened lion cub in a cage. Elphaba and Fiyero intervene, escape campus, and release the cub back into the forest. After sharing a moment, Elphaba laments that Fiyero prefers Galinda over her ("I'm Not That Girl").
+
+Elphaba receives a personalized summons from the Wizard, who has heard about her magical prowess. She and Galinda – who shortens her name to "Glinda" in honor of Dr. Dillamond's mispronunciation of it – journey to Oz's capital, the Emerald City, to meet him ("One Short Day"). After they greet each other ("A Sentimental Man"), he asks Elphaba if her heart's desire is to change her skin color, but she instead wishes to help the Animals of Oz. Morrible reveals she has traveled to witness Elphaba and the Wizard's first meeting. The Wizard and Morrible encourage Elphaba to read from the sacred Grimmerie spellbook. Her incantation makes the Wizard's monkey guards painfully sprout wings, much to the glee of the Wizard and Morrible, who are excited at the prospect of using them as spies. Elphaba realizes that they are the ones behind the Animals losing their humanity and that the Wizard does not have any real magic; Morrible used Elphaba's magic to unlock the Grimmerie's power and further subjugate the Animals to consolidate the Wizard's rule. Horrified, Elphaba flees as Morrible informs the Oz citizens that Elphaba is a "wicked witch."
+
+Glinda follows Elphaba to the palace attic, and attempts to convince her to reconcile with Morrible and the Wizard, but Elphaba decides to stop their plans. She bids an emotional farewell to Glinda, who supports her decision and confirms their deep friendship but stays behind, apprehended by the guards who interrogate her about her whereabouts so they can retrieve her. Elphaba uses the Grimmerie's flight spell to gain her ability to defy gravity using a broom and escapes from the city, evading the Wizard's guards and winged monkeys after creating a solar storm that sparks a power outage throughout Oz ("Defying Gravity").
