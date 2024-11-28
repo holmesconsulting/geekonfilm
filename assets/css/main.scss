@@ -14,3 +14,12 @@
     "starsnonscss",
 	"youtube"
 ;
+
+a[href^="https://open.spotify.com"]{
+	background-image:url("../images/spotify.svg");
+	background-repeat: no-repeat;
+      padding-left: 1.5em;
+      background-position: center left 0;
+      background-size: 2em;
+
+}
