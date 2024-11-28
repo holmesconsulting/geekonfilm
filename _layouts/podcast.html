@@ -3,8 +3,14 @@ layout: default
 ---
 <div class="container">
     {% assign episode_number = page.episode-number %}
+    {% if page.season %}
+        {% assign season = page.season %}
+    {% else %}
+        {% assign season = "1" %}
+    {% endif %}
+
     <h1>Episode {{ episode_number }} - {{ page.title }}</h1>
-    <p class="pl-2">Record date: {{ page.date |  date: '%B %d, %Y'}}</p>
+    <p class="pl-2">Season {{ season }} | Record date: {{ page.date |  date: '%B %d, %Y'}}</p>
 
     <section class="row">
         <div class="col-lg-2 col-md-1">
