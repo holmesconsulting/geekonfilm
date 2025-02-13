@@ -8,8 +8,8 @@ image: "assets/images/review/the-apprentice-gof-og.jpg"
 review-image: "assets/images/review/the-apprentice-gof.jpg"
 square-image: "assets/images/review/the-apprentice-gof-sq.jpg"
 description: The story of how a young Donald Trump started his real-estate business in 1970s and '80s New York with the helping hand of infamous lawyer Roy M. Cohn.
-featured: true
-hidden: true
+featured: falso
+hidden: false
 rating: 3.5
 comments: false
 synopsis: "A look back at the origin story for Donald J. Trump the business man and eventually the politician and the influences that shaped him."  
