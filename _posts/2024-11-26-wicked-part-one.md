@@ -8,8 +8,8 @@ image: "assets/images/review/wicked-gof-og.jpg"
 review-image: "assets/images/review/wicked-gof.jpg"
 square-image: "assets/images/review/wicked-gof-sq.jpg"
 description: The musical prequel to the Wizard of Oz that introduces the most prominent witches and how Elphaba became the Wicked Witch.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 4
 comments: false
 synopsis: "Elphaba, a misunderstood young woman because of her green skin, and Glinda, a popular girl, become friends at Shiz University in the Land of Oz. After an encounter with the Wonderful Wizard of Oz, their friendship reaches a crossroads."  
