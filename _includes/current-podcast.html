@@ -1,0 +1,23 @@
+{% assign podcast = site.podcasts.last %}
+{% assign season = podcast.season %}
+{% assign episode_number = podcast.episode-number %}
+{% assign image = podcast.square-image %}
+
+<section height="100px">
+    <div class="section-title">
+        <h2>Current Podcast: | <a href="/podcasts">All Podcasts</a></h2>
+    </div>
+    <div class="media p-2 bg-light rounded border border-dark">        
+    <img class="align-self-start mr-3" width="25%" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
+    <div>
+        <a href="{{ podcast.url }}"><h5 class="mt-0">Episode {{ episode_number }} - {{ podcast.title }}</h5></a>
+        <div class="small">Season {{ season }} | Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
+            <hr />
+            <p>{{ podcast.description }}</p>
+            <div>
+                <iframe src={{ podcast.source }} width="100%" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>   
+   
+</section>
