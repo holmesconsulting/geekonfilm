@@ -7,8 +7,8 @@ tags: ['2022', streaming, showtime]
 image: "assets/images/review/the-lost-city-og.jpg"
 review-image: "assets/images/review/the-lost-city.jpg"
 square-image: "assets/images/review/the-lost-city-sq.jpg"
-amazon-physical: https://amzn.to/3Q1nR00
-amazon-video: https://amzn.to/3JvV4yn
+amazon-physical: https://amzn.to/4d2Vued
+amazon-video: https://amzn.to/43pAQRl
 description: "This film was a totally fun romantic, comedy adventure in the vein of Romancing the Stone or even Raiders of the Lost Ark."
 featured: false
 hidden: false
