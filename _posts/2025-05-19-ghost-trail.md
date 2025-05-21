@@ -4,8 +4,8 @@ title:  "Ghost Trail"
 author: robbie
 categories: [ "film review"]
 tags: ['2025', 'in theater', 'Cinema Arts Theatre', '2025 Movie Club']
-image: assets/images/review/ghost-trail/ghost-trail.jpg
-review-image: "assets/images/review/ghost-trail/ghost-trail-og.jpg"
+image: assets/images/review/ghost-trail/ghost-trail-og.jpg
+review-image: "assets/images/review/ghost-trail/ghost-trail.jpg"
 square-image: "assets/images/review/ghost-trail/ghost-trail-sq.jpg"
 description: "A secret group spread across many countries are drawn together to track down and expose leaders from the Syrian regime, including one man who could be his torturer, adding to the overwhelming emotion Hamid our main character is filled with."
 featured: true
