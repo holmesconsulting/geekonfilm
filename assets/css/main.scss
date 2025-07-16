@@ -10,14 +10,6 @@
 	display:inline;
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-// @import 
-// 	// "syntax",
-//     "starsnonscss",
-// 	"youtube"
-// ;
-
-
 a[href^="https://open.spotify.com/track/"]{
 	background-image:url("../images/spotify.svg");
 	background-repeat: no-repeat;
