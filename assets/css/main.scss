@@ -2,18 +2,13 @@
 # Add a comment to make this file sass-y.
 # Change this file for any custom CSS.
 ---
-
+@use "syntax";
+@use "starsnonscss";
+@use "youtube";
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
 	display:inline;
 }
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax",
-    "starsnonscss",
-	"youtube"
-;
 
 a[href^="https://open.spotify.com/track/"]{
 	background-image:url("../images/spotify.svg");
