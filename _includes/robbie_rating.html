@@ -1,6 +1,7 @@
 {% if page.rating %}
 {% assign rating = page.rating %}
-{% elsif post.rating %}
+{% endif %}
+{% if post.rating %}
 {% assign rating = post.rating %}
 {% endif %}
 <div class="rating" style="--rating: {{ rating }};"></div>
