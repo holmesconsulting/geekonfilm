@@ -3,7 +3,6 @@
 # Change this file for any custom CSS.
 ---
 @use "syntax";
-@use "robbierating";
 @use "youtube";
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
@@ -17,4 +16,32 @@ a[href^="https://open.spotify.com/track/"]{
       background-position: center left 0;
       background-size: 2em;
 
+}
+.rating {
+  unicode-bidi: bidi-override;
+  color: grey;
+  font-size: 25px;
+  height: 25px;
+  width: 125px;
+  position: relative;
+  padding: 0;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 0 #a2a2a2;
+  line-height: 25px;
+  word-wrap: initial;
+}
+
+.rating::before {
+  content: "★★★★★";
+  opacity: 0.3;
+}
+
+.rating::after {
+  content: "★★★★★";
+  color: gold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--rating) * 20%);
+  overflow: hidden;
 }
