@@ -81,7 +81,7 @@ post_class: post-template
             <!-- Rating -->
             {% if page.rating %}
             <div class="mb-4 d-flex align-items-center">
-                <strong class="mr-1">Rating:</strong> {% include robbie_rating.html %}
+                <strong class="mr-1">{% include robbie_rating.html rating=page.rating %}</strong> 
             </div>
             {% endif %}
 
