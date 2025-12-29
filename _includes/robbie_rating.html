@@ -1,7 +1,2 @@
-{% if page.rating %}
-<div class="rating" style="--rating: {{ page.rating }};"></div>
-{% endif %}
-{% if post.rating %}
-<div class="rating" style="--rating: {{ post.rating }};"></div>
-{% endif %}
+Rating: <div class="rating" style="--rating:{{ include.rating }};"></div>
 
