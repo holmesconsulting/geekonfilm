@@ -25,7 +25,11 @@ description: "The home for the podcasts of our Geek on Film podcast."
         <img class="align-self-start mr-3" width="30%" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
         <div class="media-body">
             <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ episode_number }} - {{ item.title }}</h5></a>
-            <div class="small">Season {{ season }} | Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
+            {% if item.layout == "oner" %}
+                <div class="small">1er™ | Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
+            {% else %}
+                <div class="small">Season {{ season }} | Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
+            {% endif %}
                 <hr />
                 <p class="lead">{{ item.description }}</p>
                 <div>
