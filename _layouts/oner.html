@@ -26,16 +26,28 @@ layout: default
         </div>
         <div class="col-lg-6 col-md-10">
             
-                <h1 class="medium">Show Notes:</h1>
-                <h2>{% include robbie_rating.html rating=page.rating %}</h2>
-                <div>
-                    {{ content }}
-                </div>
+            <h1 class="medium">Show Notes:</h1>
+            <p>{% include robbie_rating.html rating=page.rating %}</p>
+            <div>
+                {{ content }}
+            </div>
+            <div>
                 {% if page.letterboxd %}
                     {% include letterboxd.html letterboxd=page.letterboxd %}
                 {% endif %}
+                <p>Watch on:                    
+                {% if page.youtube-link %}
+                    {% include youtube-link.html youtube-link=page.youtube-link %}
+                {% endif %}
+                {% if page.youtube-link %}
+                    {% include spotify-link.html spotify-link=page.spotify-link %}
+                {% endif %}
+                </p>
+            </div>
             {% include spotify.html %}
+            
         </div>
     </section>
+    {% include additional-links.html %}
     {% include podcast-services.html %}
 </div>
