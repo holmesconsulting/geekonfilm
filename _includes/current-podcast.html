@@ -13,7 +13,7 @@
                 <img class="align-self-start mr-3" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
             </div>
         </div>
-        <div class="col-12 col-lg-9">
+        <div class="col-12 col-lg-9 m-2">
             {% if podcast.layout == "oner" %}
                 <a href="{{ podcast.url }}"><h5 class="mt-0">1er™ - {{ podcast.title }}</h5></a>
                 <div class="small">Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
