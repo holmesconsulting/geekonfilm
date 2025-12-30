@@ -8,12 +8,12 @@
             <h2>Current Episode: | <a href="/podcasts">All Podcasts</a></h2>
     </div>    
     <div class="row">
-        <div class="col-12 col-lg-3">
+        <div class="col-12 col-lg-3 mt-2">
             <div class=" p-2 bg-light rounded border border-dark">        
                 <img class="align-self-start mr-3" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
             </div>
         </div>
-        <div class="col-12 col-lg-9">
+        <div class="col-12 col-lg-9 m-2 pr-4 p-lg-0 m-lg-0">
             {% if podcast.layout == "oner" %}
                 <a href="{{ podcast.url }}"><h5 class="mt-0">1er™ - {{ podcast.title }}</h5></a>
                 <div class="small">Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
