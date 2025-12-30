@@ -3,35 +3,36 @@
 {% assign episode_number = podcast.episode-number %}
 {% assign image = podcast.square-image %}
 
-<section height="100px">
+<section class="ag h-100">
     <div class="section-title">
-        <h2>Current Episode: | <a href="/podcasts">All Podcasts</a></h2>
-    </div>
-    <div class="media p-2 bg-light rounded border border-dark">        
-    <img class="align-self-start mr-3" width="25%" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
-    <div>
-        {% if podcast.layout == "oner" %}
-            <a href="{{ podcast.url }}"><h5 class="mt-0">1er™ - {{ podcast.title }}</h5></a>
-            <div class="small">Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
-        {% else %}
-            <a href="{{ podcast.url }}"><h5 class="mt-0">Episode {{ episode_number }} - {{ podcast.title }}</h5></a>
-            <div class="small">Season {{ season }} | Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
-        {% endif %}
-            <hr />
-            <p>{{ podcast.description }}</p>
-        {% if podcast.letterboxd %}
-            {% include letterboxd.html letterboxd=podcast.letterboxd %}
-            
-        {% endif %}
-        {% if podcast.rating %}
-            <div class="mb-2">
-                <strong class="mr-1">{% include robbie_rating.html rating=podcast.rating %}</strong> 
+            <h2>Current Episode: | <a href="/podcasts">All Podcasts</a></h2>
+    </div>    
+    <div class="row">
+        <div class="col-12 col-lg-3">
+            <div class=" p-2 bg-light rounded border border-dark">        
+                <img class="align-self-start mr-3" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
             </div>
+        </div>
+        <div class="col-12 col-lg-9">
+            {% if podcast.layout == "oner" %}
+                <a href="{{ podcast.url }}"><h5 class="mt-0">1er™ - {{ podcast.title }}</h5></a>
+                <div class="small">Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
+            {% else %}
+                <a href="{{ podcast.url }}"><h5 class="mt-0">Episode {{ episode_number }} - {{ podcast.title }}</h5></a>
+                <div class="small">Season {{ season }} | Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
             {% endif %}
+                <hr />
+                <p>{{ podcast.description }}</p>
+            {% if podcast.rating %}
+                <div class="mb-2">
+                    <strong class="mr-1">{% include robbie_rating.html rating=podcast.rating %}</strong> 
+                </div>
+                {% endif %}
             <div>
                 <iframe src={{ podcast.source }} width="100%" frameborder="0" scrolling="no"></iframe>
             </div>
-        </div>
-    </div>   
+        </div>   
+    </div>
+    
    
 </section>
