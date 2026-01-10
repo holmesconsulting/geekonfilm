@@ -6,21 +6,43 @@ title: Podcasts
 image: "/assets/images/gof-podcasters.jpg"
 description: "The home for the podcasts of our Geek on Film podcast."
 ---
-<div class="container">
+<div>
+    <div class="section-title">Current episode: </div>    
+        
     {% for item in site.podcasts reversed %}
-        {% if forloop.first == true %}
-        <h1>Current episode: </h1>    
-        <div class="media p-2 bg-light rounded border border-dark">        
-        {% if item.episode-image %}
-            {% assign image = item.episode-image %}
+        {% if item.season  %}
+            {% assign season = item.season %}
         {% else %}
-            {% assign image = item.image %}
+            {% assign season = "1" %}
         {% endif %}
-        {% assign episode_number = item.episode-number %}
-                <img class="align-self-start mr-3" width="30%" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
-                <div class="media-body">
-                    <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ episode_number }} - {{ item.title }}</h5></a>
-                    <div class="small">Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
+        {% if item.episode-number %}
+            {% assign title_string = "Episode " | append :item.episode-number %}
+        {% else %}
+            {% assign title_string = "1er™" %}
+        {% endif %}
+    {% if forloop.first == true %}
+        <div class="row h-100">
+            <div class="col-12 col-lg-3 p-2">
+                    <div class=" p-2 bg-light rounded border border-dark">        
+                    {% if item.episode-image %}
+                        {% assign image = item.episode-image %}
+                    {% else %}
+                        {% assign image = item.image %}
+                    {% endif %}
+                    <img class="align-self-start mr-3"  src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
+                </div>
+            </div>
+            <div class="col-12 col-lg-9 p-4 p-lg-1">
+                <a href="{{ item.url }}"><h5 class="mt-0">{{ title_string }} - {{ item.title }}</h5></a>
+                {% if item.layout == "oner" %}
+                    <div class="small">
+                        1er™ | Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a>
+                    </div>
+                {% else %}
+                    <div class="small">
+                        Season {{ season }} | Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a>
+                    </div>
+                {% endif %}
                     <hr />
                     <p class="lead">{{ item.description }}</p>
                     <div>
@@ -28,18 +50,32 @@ description: "The home for the podcasts of our Geek on Film podcast."
                     </div>
                 </div>
             </div>
+        </div>
         {% else %}    
-            <div class="media border-top py-2">
-                <img class="align-self-start mr-3" width="30%" src="{{ item.image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
-                <div class="media-body">
-                    <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ item.episode-number }} - {{ item.title }}</h5></a>
-                    <div class="small">Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
+            <div class="row">
+                <div class="col-12 col-lg-3 p-2">
+                    <img class="align-self-start mr-3" src="{{ item.image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
+                </div>
+
+                <div class="col-12 col-lg-9 p-4 p-lg-1">
+                    <a href="{{ item.url }}">
+                        <h5 class="mt-0">{{ title_string }} - {{ item.title }}</h5>
+                    </a>
+                    <div class="small">
+                        {% if item.layout == "oner" %}
+                            1er™ | Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a>
+                        {% else %}
+                            Season {{ season }} | Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a>
+                        {% endif %}
+                    </div>
                     <hr />
                     <p class="lead">{{ item.description | truncatewords: 20 }}</p>
                 </div>
             </div>
+        
+        
         {% endif %}
-
+        
     {% endfor %}
     
     {% include podcast-services.html %}
