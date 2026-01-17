@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div class="container">
+    {% assign episode_number = page.episode-number %}
+    {% if page.season %}
+        {% assign season = page.season %}
+    {% else %}
+        {% assign season = "1" %}
+    {% endif %}
+
+    <h1>1er™ - {{ page.title }}</h1>
+    <p class="pl-2">Record date: {{ page.date |  date: '%B %d, %Y'}}</p>
+
+    <section class="row">
+        <div class="col-lg-2 col-md-1">
+            {% include share.html %}
+        </div>
+        <div class="col-lg-4 col-md-10">
+            {% if page.episode-image %}
+                {% assign image = page.episode-image %}
+            {% else %}
+                {% assign image = page.image %}
+            {% endif %}
+            <img src="{{ image }}" width="100%" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="col-lg-6 col-md-10">
+            
+            <h1 class="medium">Show Notes:</h1>
+            <p>{% include robbie_rating.html rating=page.rating %}</p>
+            <div>
+                {{ content }}
+            </div>
+            <div>
+                {% if page.letterboxd %}
+                    {% include letterboxd.html letterboxd=page.letterboxd %}
+                {% endif %}
+                <p>Watch on:                    
+                {% if page.youtube-link %}
+                    {% include youtube-link.html youtube-link=page.youtube-link %}
+                {% endif %}
+                {% if page.youtube-link %}
+                    {% include spotify-link.html spotify-link=page.spotify-link %}
+                {% endif %}
+                </p>
+            </div>
+            {% include spotify.html %}
+            
+        </div>
+    </section>
+    {% include additional-links.html %}
+    {% include podcast-services.html %}
+</div>
