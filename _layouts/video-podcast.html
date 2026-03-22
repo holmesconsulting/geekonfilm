@@ -27,7 +27,9 @@ layout: default
         <div class="col-lg-6 col-md-10">
             
             <h1 class="medium">Show Notes:</h1>
-            <p>{% include robbie_rating.html rating=page.rating %}</p>
+            {% if page.rating %}
+                <p>{% include robbie_rating.html rating=page.rating %}</p>
+            {% endif %}
             <div>
                 {{ content }}
             </div>
