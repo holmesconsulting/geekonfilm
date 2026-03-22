@@ -45,9 +45,13 @@ description: "The home for the podcasts of our Geek on Film podcast."
                 {% endif %}
                     <hr />
                     <p class="lead">{{ item.description }}</p>
+                    {% if item.layout == "video-podcast" %}
+                        {% include spotify.html %}
+                    {% else %}
                     <div>
                         <iframe src={{ item.source }} width="100%" frameborder="0" scrolling="no"></iframe>
                     </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
