@@ -1,0 +1,17 @@
+{% if page.spotify %}
+<div class="youtube-wrapper">
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src={{ page.spotify }} width="624" height="351" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+ {% elsif item.spotify %}
+<div class="youtube-wrapper">
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src={{ item.spotify }} width="624" height="351" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+
+{% else %}
+<div class="youtube-wrapper">
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src={{ podcast.spotify }} width="624" height="351"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+{% endif %}
