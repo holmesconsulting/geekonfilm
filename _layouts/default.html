@@ -71,6 +71,13 @@
 		<li class="nav-item">
 		  <a class="nav-link" href="https://shop.geekonfilm.com/">Shop</a>
 	    	</li>
+		{% if page.url == "/subscribe" %}
+		<li class="nav-item active">
+		{% else %}
+		<li class="nav-item">
+		{% endif %}
+		  <a class="nav-link nav-subscribe" href="{{ site.baseurl }}/subscribe">Subscribe</a>
+		</li>
 		    
                 {% include search-lunr.html %}
 
