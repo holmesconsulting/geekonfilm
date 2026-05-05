@@ -45,6 +45,195 @@ a[href^="https://open.spotify.com/track/"]{
   width: calc(var(--rating) * 20%);
   overflow: hidden;
 }
+/* ── Subscribe badges ──────────────────────────────── */
+.subscribe-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.subscribe-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  text-decoration: none;
+}
+
+.subscribe-badge:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+  color: #fff;
+  text-decoration: none;
+}
+
+.subscribe-badge--spotify      { background: #1DB954; }
+.subscribe-badge--apple        { background: #B150E2; }
+.subscribe-badge--pocketcasts  { background: #F43E37; }
+.subscribe-badge--amazon       { background: #FF9900; }
+.subscribe-badge--youtube      { background: #FF0000; }
+.subscribe-badge--tunein       { background: #00A0C6; }
+.subscribe-badge--listennotes  { background: #00B4B4; }
+.subscribe-badge--podchaser    { background: #E55B5B; }
+
+/* Homepage / current-episode subscribe bar */
+.subscribe-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  margin-top: 1.25rem;
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  border-radius: 0 0 4px 4px;
+}
+
+.subscribe-bar-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #6c757d;
+  white-space: nowrap;
+}
+
+/* Episode page top-of-page badges */
+.episode-subscribe {
+  margin: 0.5rem 0 1.25rem;
+}
+
+.episode-subscribe .subscribe-badges {
+  justify-content: flex-start;
+}
+
+/* Review page podcast CTA */
+.podcast-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  background: #f8f9fa;
+  border-left: 3px solid #1DB954;
+  border-radius: 0 4px 4px 0;
+}
+
+.podcast-cta-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #6c757d;
+}
+
+.podcast-cta-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.podcast-cta-text {
+  font-size: 0.9rem;
+  color: #495057;
+  margin-right: 0.25rem;
+}
+
+.podcast-cta .subscribe-badge img {
+  height: 26px;
+}
+
+/* Subscribe page */
+.subscribe-page {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.subscribe-platform-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.subscribe-platform-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #343a40;
+  font-size: 0.85rem;
+  font-weight: 600;
+  width: 140px;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.subscribe-platform-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  color: #343a40;
+  text-decoration: none;
+}
+
+.subscribe-platform-card img {
+  height: 52px;
+  width: auto;
+}
+
+/* Icon-based platform cards */
+.subscribe-platform-card .platform-icon {
+  font-size: 3.25rem;
+  line-height: 1;
+  display: block;
+}
+
+/* Brand-colored card background, white icon + label */
+.subscribe-platform-card--filled {
+  border-color: transparent;
+  color: #fff;
+}
+.subscribe-platform-card--filled:hover { color: #fff; }
+.subscribe-platform-card--filled .platform-icon { color: #fff; }
+
+.subscribe-platform-card--filled.subscribe-platform-card--spotify    { background: #1DB954; }
+.subscribe-platform-card--filled.subscribe-platform-card--apple      { background: #B150E2; }
+.subscribe-platform-card--filled.subscribe-platform-card--pocketcasts { background: #F43E37; }
+.subscribe-platform-card--filled.subscribe-platform-card--amazon     { background: #FF9900; }
+.subscribe-platform-card--filled.subscribe-platform-card--youtube    { background: #FF0000; }
+.subscribe-platform-card--filled.subscribe-platform-card--tunein     { background: #00A0C6; }
+.subscribe-platform-card--filled.subscribe-platform-card--listennotes { background: #00B4B4; }
+.subscribe-platform-card--filled.subscribe-platform-card--podchaser  { background: #E55B5B; }
+
+.subscribe-section-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #6c757d;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Nav subscribe link */
+.nav-subscribe {
+  font-weight: 600;
+}
+
 .youtube-wrapper {
     position: relative;
     width: 100%;
