@@ -15,9 +15,7 @@ description: "The home for the podcasts of our Geek on Film podcast."
   {% if latest.episode-number %}{% assign latest_label = "Episode " | append: latest.episode-number %}{% else %}{% assign latest_label = "1er™" %}{% endif %}
   {% if latest.episode-image %}{% assign hero_img = latest.episode-image %}{% elsif latest.square-image %}{% assign hero_img = latest.square-image %}{% else %}{% assign hero_img = latest.image %}{% endif %}
 
-  <div class="section-title">
-    <h2><span>Latest Episode</span></h2>
-  </div>
+  <h6 class="ep-section-label">Latest Episode</h6>
 
   <div class="row podcast-hero-card mb-4">
     <div class="col-12 col-lg-3 p-2">
@@ -54,9 +52,7 @@ description: "The home for the podcasts of our Geek on Film podcast."
     {% if featured_ep.episode-number %}{% assign feat_label = "Episode " | append: featured_ep.episode-number %}{% else %}{% assign feat_label = "1er™" %}{% endif %}
     {% if featured_ep.square-image %}{% assign feat_img = featured_ep.square-image %}{% else %}{% assign feat_img = featured_ep.image %}{% endif %}
 
-    <div class="section-title">
-      <h2><span>Featured Episode</span></h2>
-    </div>
+    <h6 class="ep-section-label">Featured Episode</h6>
 
     <div class="row podcast-featured-card mb-4 align-items-center">
       <div class="col-3 col-lg-1 p-2">
@@ -76,9 +72,7 @@ description: "The home for the podcasts of our Geek on Film podcast."
   {% endif %}
 
   <!-- ── All Episodes ─────────────────────────────────────── -->
-  <div class="section-title">
-    <h2><span>All Episodes</span></h2>
-  </div>
+  <h6 class="ep-section-label">All Episodes</h6>
 
   <div id="ep-list">
     {% for item in site.podcasts reversed %}
@@ -109,7 +103,6 @@ description: "The home for the podcasts of our Geek on Film podcast."
     <div id="ep-page-numbers" class="ep-page-numbers"></div>
     <button id="ep-next" class="btn btn-outline-secondary btn-sm">&#8594;</button>
   </div>
-  <p class="text-center text-muted small mt-1" id="ep-page-info">{{ site.podcasts.size }} episodes</p>
 
 
 </div>
@@ -123,8 +116,12 @@ document.addEventListener('DOMContentLoaded', function () {
   var prevBtn  = document.getElementById('ep-prev');
   var nextBtn  = document.getElementById('ep-next');
   var numWrap  = document.getElementById('ep-page-numbers');
-  var info     = document.getElementById('ep-page-info');
   var list     = document.getElementById('ep-list');
+  var navbar   = document.querySelector('.navbar');
+  function scrollToList() {
+    var top = list.getBoundingClientRect().top + window.pageYOffset - (navbar ? navbar.offsetHeight + 12 : 70);
+    window.scrollTo({ top: top, behavior: 'smooth' });
+  }
 
   // Build numbered page buttons once
   for (var n = 1; n <= pages; n++) {
@@ -137,10 +134,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   numWrap.addEventListener('click', function (e) {
     var btn = e.target.closest('.ep-page-btn');
-    if (btn) goTo(parseInt(btn.dataset.p, 10));
+    if (btn) goTo(parseInt(btn.dataset.p, 10), true);
   });
 
-  function goTo(p) {
+  function goTo(p, scroll) {
     items.forEach(function (el, i) {
       el.classList.toggle('ep-hidden', i < (p - 1) * PER_PAGE || i >= p * PER_PAGE);
     });
@@ -149,14 +146,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     prevBtn.disabled = (p === 1);
     nextBtn.disabled = (p === pages);
-    info.textContent = 'Page ' + p + ' of ' + pages + ' · ' + items.length + ' episodes';
     current = p;
-    list.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (scroll) scrollToList();
   }
 
-  prevBtn.addEventListener('click', function () { if (current > 1)     goTo(current - 1); });
-  nextBtn.addEventListener('click', function () { if (current < pages) goTo(current + 1); });
+  prevBtn.addEventListener('click', function () { if (current > 1)     goTo(current - 1, true); });
+  nextBtn.addEventListener('click', function () { if (current < pages) goTo(current + 1, true); });
 
-  goTo(1);
+  goTo(1, false);
 });
 </script>
