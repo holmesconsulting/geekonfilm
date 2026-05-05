@@ -5,7 +5,7 @@ description: "In this 1er™ Robbie discusses David Lowery's Mother Mary"
 permalink: /podcasts/:title
 source: https://creators.spotify.com/pod/profile/geek-on-film/embed/episodes/Mother-Mary-e3iojt8
 spotify: https://open.spotify.com/embed/episode/1AAHK8OSb695ysqcFX6vN9/video
-image: "/assets/images/podcast/1ers/mother-mary/phm-og.jpg"
+image: "/assets/images/podcast/1ers/mother-mary/mm-og.jpg"
 square-image: "/assets/images/podcast/1ers/mother-mary/mm-sq.jpg"
 episode-image: "/assets/images/podcast/1ers/mother-mary/mm.jpg"
 letterboxd: https://boxd.it/e8vc3x
