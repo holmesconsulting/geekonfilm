@@ -1,51 +1,47 @@
-{% assign podcast = site.podcasts.last %}
-{% assign season = podcast.season %}
-{% assign episode_number = podcast.episode-number %}
-{% assign image = podcast.square-image %}
+{% assign podcast = site.podcasts | last %}
+{% if podcast.season %}{% assign pod_season = podcast.season %}{% else %}{% assign pod_season = "1" %}{% endif %}
+{% if podcast.episode-number %}{% assign pod_label = "Episode " | append: podcast.episode-number %}{% else %}{% assign pod_label = "1er™" %}{% endif %}
+{% if podcast.episode-image %}{% assign pod_img = podcast.episode-image %}{% elsif podcast.square-image %}{% assign pod_img = podcast.square-image %}{% else %}{% assign pod_img = podcast.image %}{% endif %}
 
 <section class="ag h-100">
-    <div class="section-title">
-            <h2>Current Episode: | <a href="/podcasts">All Podcasts</a></h2>
-    </div>    
-    <div class="row">
-        <div class="col-12 col-lg-3 mt-2">
-            <div class=" p-2 bg-light rounded border border-dark">
-            {% if podcast.layout == "video-podcast" %}
-                <img class="align-self-start mr-3" src="{{ podcast.episode-image }}" alt="Custom podcast episode {{episode-number}} artwork">    
-            {% else %} 
-                <img class="align-self-start mr-3" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
-            {% endif %}
-            </div>
+
+  <div class="d-flex align-items-baseline justify-content-between mb-1">
+    <h6 class="ep-section-label mb-0" style="border:none">Current Episode</h6>
+    <a href="/podcasts" class="small">All Podcasts &rarr;</a>
+  </div>
+  <hr class="mt-1 mb-3">
+
+  <div class="row podcast-hero-card mb-4">
+    <div class="col-12 col-lg-3 p-2">
+      <div class="p-2 bg-light rounded border border-dark">
+        <img src="{{ pod_img }}" alt="{{ podcast.title }}" style="width:100%">
+      </div>
+    </div>
+    <div class="col-12 col-lg-9 p-4 p-lg-3">
+      <div class="podcast-meta-badges">
+        <span class="badge badge-dark podcast-ep-badge">{{ pod_label }}</span>
+        {% if podcast.episode-number %}<span class="badge badge-secondary podcast-season-badge">S{{ pod_season }}</span>{% endif %}
+        {% if podcast.layout == "video-podcast" %}<span class="badge badge-danger podcast-type-badge">Video</span>{% endif %}
+      </div>
+      <a href="{{ podcast.url }}"><h5 class="mt-2 mb-1">{{ podcast.title }}</h5></a>
+      <div class="small text-muted mb-2">{{ podcast.date | date: '%B %d, %Y' }} &middot; <a href="{{ podcast.url }}">Show Notes</a></div>
+      <p>{{ podcast.description }}</p>
+      {% if podcast.rating %}
+        <div class="mb-2">
+          <strong class="mr-1">{% include robbie_rating.html rating=podcast.rating %}</strong>
         </div>
-        <div class="col-12 col-lg-8 col-md-4 m-2 pr-4 p-lg-4 m-lg-2">
-            {% if podcast.layout == "video-podcast" %}
-                <a href="{{ podcast.url }}"><h5 class="mt-0">{{ podcast.title }}</h5></a>
-                <div class="small">Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
-            {% elsif podcast.layout == "oner" %}
-                <a href="{{ podcast.url }}"><h5 class="mt-0">1er™ - {{ podcast.title }}</h5></a>
-                <div class="small">Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
-            {% else %}
-                <a href="{{ podcast.url }}"><h5 class="mt-0">Episode {{ episode_number }} - {{ podcast.title }}</h5></a>
-                <div class="small">Season {{ season }} | Record Date: {{ podcast.date | date: '%B %d, %Y' }} | <a href="{{ podcast.url }}">Show Notes</a></div>
-            {% endif %}
-                <hr />
-                <p>{{ podcast.description }}</p>
-            {% if podcast.rating %}
-                <div class="mb-2">
-                    <strong class="mr-1">{% include robbie_rating.html rating=podcast.rating %}</strong> 
-                </div>
-            {% endif %}
-            {% if podcast.layout == "video-podcast" %}
-                {% include spotify.html %}
-            {% else %}
-            <div>
-                <iframe src={{ podcast.source }} width="100%" frameborder="0" scrolling="no"></iframe>
-            </div>
-            {% endif %}
-        </div>   
+      {% endif %}
+      {% if podcast.layout == "video-podcast" %}
+        {% include spotify.html %}
+      {% else %}
+        <iframe src="{{ podcast.source }}" width="100%" frameborder="0" scrolling="no"></iframe>
+      {% endif %}
     </div>
-     <div class="subscribe-bar">
-      <span class="subscribe-bar-label">Listen &amp; Subscribe</span>
-      {% include subscribe-badges.html %}
-    </div>
+  </div>
+
+  <div class="subscribe-bar">
+    <span class="subscribe-bar-label">Listen &amp; Subscribe</span>
+    {% include subscribe-badges.html %}
+  </div>
+
 </section>
