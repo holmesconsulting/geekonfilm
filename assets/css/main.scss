@@ -234,6 +234,104 @@ a[href^="https://open.spotify.com/track/"]{
   font-weight: 600;
 }
 
+/* ── Podcast index page ────────────────────────────── */
+.podcast-meta-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 0.25rem;
+}
+
+.podcast-ep-badge  { font-size: 0.7rem; }
+.podcast-season-badge { font-size: 0.65rem; }
+.podcast-type-badge   { font-size: 0.65rem; }
+
+/* Featured episode card thumbnail */
+.podcast-featured-thumb {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Episode list rows */
+.ep-hidden { display: none !important; }
+
+.ep-list-item {
+  gap: 0;
+}
+
+.ep-list-thumb img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
+.ep-list-title {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.3;
+  margin-bottom: 0.15rem;
+}
+
+.ep-list-date {
+  font-size: 0.78rem;
+  color: #6c757d;
+}
+
+.ep-list-desc {
+  font-size: 0.82rem;
+  color: #6c757d;
+  line-height: 1.4;
+}
+
+/* Pagination controls */
+.ep-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.ep-page-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  justify-content: center;
+  flex: 1;
+}
+
+.ep-page-btn {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 0.4rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border: 1px solid #dee2e6;
+  background: #fff;
+  color: #495057;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+
+.ep-page-btn:hover {
+  background: #f8f9fa;
+  border-color: #adb5bd;
+}
+
+.ep-page-btn--active {
+  background: #343a40;
+  color: #fff;
+  border-color: #343a40;
+  cursor: default;
+}
+
 .youtube-wrapper {
     position: relative;
     width: 100%;
