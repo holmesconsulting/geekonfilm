@@ -6,41 +6,153 @@ title: Podcasts
 image: "/assets/images/gof-podcasters.jpg"
 description: "The home for the podcasts of our Geek on Film podcast."
 ---
-<div class="container">
-    {% for item in site.podcasts reversed %}
-        {% if forloop.first == true %}
-        <h1>Current episode: </h1>    
-        <div class="media p-2 bg-light rounded border border-dark">        
-        {% if item.episode-image %}
-            {% assign image = item.episode-image %}
-        {% else %}
-            {% assign image = item.image %}
-        {% endif %}
-        {% assign episode_number = item.episode-number %}
-                <img class="align-self-start mr-3" width="30%" src="{{ image }}" alt="Custom podcast episode {{episode-number}} artwork">
-                <div class="media-body">
-                    <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ episode_number }} - {{ item.title }}</h5></a>
-                    <div class="small">Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
-                    <hr />
-                    <p class="lead">{{ item.description }}</p>
-                    <div>
-                        <iframe src={{ item.source }} width="100%" frameborder="0" scrolling="no"></iframe>
-                    </div>
-                </div>
-            </div>
-        {% else %}    
-            <div class="media border-top py-2">
-                <img class="align-self-start mr-3" width="30%" src="{{ item.image }}" alt="Custom podcast episode {{item.episode-number}} artwork">
-                <div class="media-body">
-                    <a href="{{ item.url }}"><h5 class="mt-0">Episode {{ item.episode-number }} - {{ item.title }}</h5></a>
-                    <div class="small">Record Date: {{ item.date | date: '%B %d, %Y' }} | <a href="{{ item.url }}">Show Notes</a></div>
-                    <hr />
-                    <p class="lead">{{ item.description | truncatewords: 20 }}</p>
-                </div>
-            </div>
-        {% endif %}
 
-    {% endfor %}
-    
-    {% include podcast-services.html %}
+<div>
+
+  <!-- ── Latest Episode ──────────────────────────────────── -->
+  {% assign latest = site.podcasts | last %}
+  {% if latest.season %}{% assign latest_season = latest.season %}{% else %}{% assign latest_season = "1" %}{% endif %}
+  {% if latest.episode-number %}{% assign latest_label = "Episode " | append: latest.episode-number %}{% else %}{% assign latest_label = "1er™" %}{% endif %}
+  {% if latest.episode-image %}{% assign hero_img = latest.episode-image %}{% elsif latest.square-image %}{% assign hero_img = latest.square-image %}{% else %}{% assign hero_img = latest.image %}{% endif %}
+
+  <h6 class="ep-section-label">Latest Episode</h6>
+
+  <div class="row podcast-hero-card mb-4">
+    <div class="col-12 col-lg-3 p-2">
+      <div class="p-2 bg-light rounded border border-dark">
+        <img src="{{ hero_img }}" alt="{{ latest.title }}" style="width:100%">
+      </div>
     </div>
+    <div class="col-12 col-lg-9 p-4 p-lg-3">
+      <div class="podcast-meta-badges">
+        <span class="badge badge-dark podcast-ep-badge">{{ latest_label }}</span>
+        {% if latest.episode-number %}<span class="badge badge-secondary podcast-season-badge">S{{ latest_season }}</span>{% endif %}
+        {% if latest.layout == "video-podcast" %}<span class="badge badge-danger podcast-type-badge">Video</span>{% endif %}
+      </div>
+      <a href="{{ latest.url }}"><h5 class="mt-2 mb-1">{{ latest.title }}</h5></a>
+      <div class="small text-muted mb-2">{{ latest.date | date: '%B %d, %Y' }} &middot; <a href="{{ latest.url }}">Show Notes</a></div>
+      <p>{{ latest.description }}</p>
+      {% if latest.layout == "video-podcast" %}
+        {% include spotify.html %}
+      {% else %}
+        <iframe src="{{ latest.source }}" width="100%" frameborder="0" scrolling="no"></iframe>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="subscribe-bar">
+    <span class="subscribe-bar-label">Listen &amp; Subscribe</span>
+    {% include subscribe-badges.html %}
+  </div>
+
+  <!-- ── Featured Episode (if flagged and not the same as latest) ── -->
+  {% assign featured_ep = site.podcasts | where: "featured", true | last %}
+  {% if featured_ep and featured_ep.url != latest.url %}
+    {% if featured_ep.season %}{% assign feat_season = featured_ep.season %}{% else %}{% assign feat_season = "1" %}{% endif %}
+    {% if featured_ep.episode-number %}{% assign feat_label = "Episode " | append: featured_ep.episode-number %}{% else %}{% assign feat_label = "1er™" %}{% endif %}
+    {% if featured_ep.square-image %}{% assign feat_img = featured_ep.square-image %}{% else %}{% assign feat_img = featured_ep.image %}{% endif %}
+
+    <h6 class="ep-section-label">Featured Episode</h6>
+
+    <div class="row podcast-featured-card mb-4 align-items-center">
+      <div class="col-3 col-lg-1 p-2">
+        <img src="{{ feat_img }}" alt="{{ featured_ep.title }}" class="podcast-featured-thumb">
+      </div>
+      <div class="col-9 col-lg-11 p-2">
+        <div class="podcast-meta-badges">
+          <span class="badge badge-dark podcast-ep-badge">{{ feat_label }}</span>
+          {% if featured_ep.episode-number %}<span class="badge badge-secondary podcast-season-badge">S{{ feat_season }}</span>{% endif %}
+          {% if featured_ep.layout == "video-podcast" %}<span class="badge badge-danger podcast-type-badge">Video</span>{% endif %}
+        </div>
+        <a href="{{ featured_ep.url }}"><strong>{{ featured_ep.title }}</strong></a>
+        <div class="small text-muted">{{ featured_ep.date | date: '%B %d, %Y' }} &middot; <a href="{{ featured_ep.url }}">Show Notes</a></div>
+        <p class="small mt-1 mb-0">{{ featured_ep.description | truncatewords: 25 }}</p>
+      </div>
+    </div>
+  {% endif %}
+
+  <!-- ── All Episodes ─────────────────────────────────────── -->
+  <h6 class="ep-section-label">All Episodes</h6>
+
+  <div id="ep-list">
+    {% for item in site.podcasts reversed %}
+      {% if item.season %}{% assign item_season = item.season %}{% else %}{% assign item_season = "1" %}{% endif %}
+      {% if item.episode-number %}{% assign item_label = "Ep. " | append: item.episode-number %}{% else %}{% assign item_label = "1er™" %}{% endif %}
+      {% if item.square-image %}{% assign item_img = item.square-image %}{% else %}{% assign item_img = item.image %}{% endif %}
+
+      <div class="ep-list-item d-flex align-items-start py-2 border-bottom{% if forloop.index > 10 %} ep-hidden{% endif %}">
+        <a href="{{ item.url }}" class="ep-list-thumb mr-3 flex-shrink-0">
+          <img src="{{ item_img }}" alt="{{ item.title }}">
+        </a>
+        <div class="ep-list-body">
+          <div class="podcast-meta-badges">
+            <span class="badge badge-dark podcast-ep-badge">{{ item_label }}</span>
+            {% if item.episode-number %}<span class="badge badge-secondary podcast-season-badge">S{{ item_season }}</span>{% endif %}
+            {% if item.layout == "video-podcast" %}<span class="badge badge-danger podcast-type-badge">Video</span>{% endif %}
+            <span class="ep-list-date">{{ item.date | date: '%b %-d, %Y' }}</span>
+          </div>
+          <a href="{{ item.url }}" class="ep-list-title">{{ item.title }}</a>
+          <p class="ep-list-desc mb-0">{{ item.description | truncatewords: 18 }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="ep-pagination">
+    <button id="ep-prev" class="btn btn-outline-secondary btn-sm" disabled>&larr;</button>
+    <div id="ep-page-numbers" class="ep-page-numbers"></div>
+    <button id="ep-next" class="btn btn-outline-secondary btn-sm">&#8594;</button>
+  </div>
+
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var PER_PAGE = 10;
+  var items    = Array.from(document.querySelectorAll('.ep-list-item'));
+  var pages    = Math.ceil(items.length / PER_PAGE);
+  var current  = 1;
+  var prevBtn  = document.getElementById('ep-prev');
+  var nextBtn  = document.getElementById('ep-next');
+  var numWrap  = document.getElementById('ep-page-numbers');
+  var list     = document.getElementById('ep-list');
+  var navbar   = document.querySelector('.navbar');
+  function scrollToList() {
+    var top = list.getBoundingClientRect().top + window.pageYOffset - (navbar ? navbar.offsetHeight + 12 : 70);
+    window.scrollTo({ top: top, behavior: 'smooth' });
+  }
+
+  // Build numbered page buttons once
+  for (var n = 1; n <= pages; n++) {
+    var btn = document.createElement('button');
+    btn.className = 'ep-page-btn';
+    btn.textContent = n;
+    btn.dataset.p = n;
+    numWrap.appendChild(btn);
+  }
+
+  numWrap.addEventListener('click', function (e) {
+    var btn = e.target.closest('.ep-page-btn');
+    if (btn) goTo(parseInt(btn.dataset.p, 10), true);
+  });
+
+  function goTo(p, scroll) {
+    items.forEach(function (el, i) {
+      el.classList.toggle('ep-hidden', i < (p - 1) * PER_PAGE || i >= p * PER_PAGE);
+    });
+    Array.from(numWrap.querySelectorAll('.ep-page-btn')).forEach(function (b) {
+      b.classList.toggle('ep-page-btn--active', parseInt(b.dataset.p, 10) === p);
+    });
+    prevBtn.disabled = (p === 1);
+    nextBtn.disabled = (p === pages);
+    current = p;
+    if (scroll) scrollToList();
+  }
+
+  prevBtn.addEventListener('click', function () { if (current > 1)     goTo(current - 1, true); });
+  nextBtn.addEventListener('click', function () { if (current < pages) goTo(current + 1, true); });
+
+  goTo(1, false);
+});
+</script>

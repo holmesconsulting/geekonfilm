@@ -7,8 +7,8 @@ tags: ['2022', hbomax, streaming, 'dolby atmos']
 image: "assets/images/review/the-batman-og.jpg"
 review-image: "assets/images/review/the-batman.jpg"
 square-image: "assets/images/review/the-batman-sq.jpg"
-amazon-physical: https://amzn.to/3SENpC2
-amazon-video: https://amzn.to/3OWF49L
+amazon-physical: https://amzn.to/4k9U5VH
+amazon-video: https://amzn.to/4jDt3pF
 description: "I have said this a few times, and it is time to codify it in writing.  I think this is the best Batman adaptation ever made on film."
 featured: false
 hidden: false
