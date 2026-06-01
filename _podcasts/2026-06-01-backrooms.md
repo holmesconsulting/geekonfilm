@@ -3,7 +3,7 @@ layout: oner
 title: "Backrooms"
 description: "Robbie reviews Backrooms — the A24 horror phenomenon from 20-year-old director Kane Parsons that became the studio's biggest opening weekend ever."
 permalink: /podcasts/:title
-source: https://creators.spotify.com/pod/profile/geek-on-film/embed/episodes/Backrooms-e3k1ist
+source: https://creators.spotify.com/pod/profile/geek-on-film/embed/episodes/Backrooms-e3k6th9
 spotify: https://open.spotify.com/embed/episode/1MxBsmGb32ABO0lWuoX6oh/video
 image: "/assets/images/podcast/1ers/backrooms/backrooms-og.jpg"
 square-image: "/assets/images/podcast/1ers/backrooms/backrooms-sq.jpg"
