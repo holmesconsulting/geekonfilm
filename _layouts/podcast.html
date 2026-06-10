@@ -24,7 +24,11 @@ layout: default
                 {% assign image = page.image %}
             {% endif %}
             <img src="{{ image }}" width="100%" frameborder="0" scrolling="no"></iframe>
-            <iframe src="{{ page.source }}" width="100%" frameborder="0" scrolling="no"></iframe>
+            {% if page.buzzsprout %}
+              {% include buzzsprout.html %}
+            {% elsif page.source %}
+              <iframe src="{{ page.source }}" width="100%" frameborder="0" scrolling="no"></iframe>
+            {% endif %}
         </div>
         <div class="col-lg-6 col-md-10">
             
