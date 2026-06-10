@@ -32,7 +32,9 @@
         </div>
       {% endif %}
       {% if podcast.layout == "video-podcast" %}
-        {% include spotify.html %}
+        {% include youtube-embed.html %}
+      {% elsif podcast.buzzsprout %}
+        {% include buzzsprout.html %}
       {% else %}
         <iframe src="{{ podcast.source }}" width="100%" frameborder="0" scrolling="no"></iframe>
       {% endif %}

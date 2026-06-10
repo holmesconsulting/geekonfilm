@@ -37,16 +37,13 @@ layout: default
                 {% if page.letterboxd %}
                     {% include letterboxd.html letterboxd=page.letterboxd %}
                 {% endif %}
-                <p>Watch on:                    
-                {% if page.youtube-link %}
-                    {% include youtube-link.html youtube-link=page.youtube-link %}
-                {% endif %}
-                {% if page.youtube-link %}
-                    {% include spotify-link.html spotify-link=page.spotify-link %}
-                {% endif %}
+                <p>
+                {% if page.youtube-link %}{% include youtube-link.html youtube-link=page.youtube-link %}{% endif %}
+                {% if page.youtube-link and page.spotify-link %} | {% endif %}
+                {% if page.spotify-link %}{% include spotify-link.html spotify-link=page.spotify-link %}{% endif %}
                 </p>
             </div>
-            {% include spotify.html %}
+            {% include youtube-embed.html %}
             
         </div>
     </section>
