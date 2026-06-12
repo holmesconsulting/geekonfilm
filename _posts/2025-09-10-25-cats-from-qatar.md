@@ -8,8 +8,8 @@ image: assets/images/review/25-cats-qatar/25-cats-qatar-og.jpg
 review-image: "assets/images/review/25-cats-qatar/25-cats-qatar.jpg"
 square-image: "assets/images/review/25-cats-qatar/25-cats-qatar.jpg"
 description: "The story of a woman who owns a cat cafe in Milwaukee who works to get cats adopted not just locally but from around the world.  She travels to Qatar and meets people she has been communicating with to bring cats they have rescued from the streets to her cafe."
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 3.5
 comments: false
 synopsis: "The nation of Qatar has a street cat population equal to the population of the entire country. Disease is rampant, and local adoption is rare. A Midwestern cafe owner decides to bring 25 cats to Wisconsin."
