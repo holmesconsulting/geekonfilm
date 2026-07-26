@@ -76,6 +76,7 @@ description: "The home for the podcasts of our Geek on Film podcast."
 
   <div id="ep-list">
     {% for item in site.podcasts reversed %}
+      {% if item == latest %} {% continue %} {% endif %}
       {% if item.season %}{% assign item_season = item.season %}{% else %}{% assign item_season = "1" %}{% endif %}
       {% if item.episode-number %}{% assign item_label = "Ep. " | append: item.episode-number %}{% else %}{% assign item_label = "1er™" %}{% endif %}
       {% if item.square-image %}{% assign item_img = item.square-image %}{% else %}{% assign item_img = item.image %}{% endif %}
