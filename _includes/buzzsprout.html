@@ -1,0 +1,13 @@
+{% if page.buzzsprout %}
+  {% assign bz = page.buzzsprout %}
+{% elsif item.buzzsprout %}
+  {% assign bz = item.buzzsprout %}
+{% else %}
+  {% assign bz = podcast.buzzsprout %}
+{% endif %}
+
+{% if bz %}
+  {% assign bz_id = bz | split: '-' | first %}
+  <div id="buzzsprout-player-{{ bz_id }}"></div>
+  <script src="https://www.buzzsprout.com/2622803/episodes/{{ bz }}.js?container_id=buzzsprout-player-{{ bz_id }}&player=small" type="text/javascript" charset="utf-8"></script>
+{% endif %}
