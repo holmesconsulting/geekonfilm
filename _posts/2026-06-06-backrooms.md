@@ -8,8 +8,8 @@ image: assets/images/review/backrooms/backrooms-og.jpg
 review-image: "assets/images/review/backrooms/backrooms.jpg"
 square-image: "assets/images/review/backrooms/backrooms.jpg"
 description: "A24's largest opening weekend ever came from a 20-year-old who built an entire mythology on YouTube. I watched all of it. I still don't have answers. I want more."
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 4
 comments: false
 synopsis: "After a therapist's patient disappears into a dimension beyond reality, she must venture into the unknown to save him."
