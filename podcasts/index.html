@@ -34,6 +34,8 @@ description: "The home for the podcasts of our Geek on Film podcast."
       <p>{{ latest.description }}</p>
       {% if latest.layout == "video-podcast" %}
         {% include spotify.html %}
+      {% elsif latest.layout == "oner" %}
+        {% include buzzsprout.html %}
       {% else %}
         <iframe src="{{ latest.source }}" width="100%" frameborder="0" scrolling="no"></iframe>
       {% endif %}
