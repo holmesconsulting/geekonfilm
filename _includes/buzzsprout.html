@@ -2,6 +2,8 @@
   {% assign bz = page.buzzsprout %}
 {% elsif item.buzzsprout %}
   {% assign bz = item.buzzsprout %}
+{% elsif latest.buzzsprout %}
+  {% assign bz = latest.buzzsprout %}
 {% else %}
   {% assign bz = podcast.buzzsprout %}
 {% endif %}

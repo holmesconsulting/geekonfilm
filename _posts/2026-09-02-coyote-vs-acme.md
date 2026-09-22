@@ -9,7 +9,7 @@ review-image: "assets/images/review/coyote-vs-acme/coyote-vs-acme.jpg"
 square-image: "assets/images/review/coyote-vs-acme/coyote-vs-acme.jpg"
 description: "Robbie reviews the Looney Tunes movie Warner Bros. tried to bury — and finds a genuinely great comedy hiding behind the headlines."
 featured: true
-hidden: false
+hidden: true
 rating: 4
 comments: false
 synopsis: "After years of Acme products failing him in his endless pursuit of the Road Runner, Wile E. Coyote hires down-and-out lawyer Kevin Avery (Will Forte) to sue the Acme Corporation for product liability, squaring off against Acme's slick defense attorney Buddy (John Cena) in a legal battle that puts the whole Looney Tunes universe on trial."
