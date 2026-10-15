@@ -1,0 +1,14 @@
+{% if page.youtube-link %}
+  {% assign yt_url = page.youtube-link %}
+{% elsif item.youtube-link %}
+  {% assign yt_url = item.youtube-link %}
+{% else %}
+  {% assign yt_url = podcast.youtube-link %}
+{% endif %}
+
+{% if yt_url %}
+  {% assign yt_id = yt_url | split: 'youtu.be/' | last | split: '?' | first %}
+  <div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/{{ yt_id }}" width="624" height="351" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+{% endif %}
