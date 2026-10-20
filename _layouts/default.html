@@ -6,8 +6,6 @@
 
 <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
 
-<title>{{ page.title }} | {{site.name}}</title>
-
 {% seo %}
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -31,7 +29,7 @@
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
 		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"  crossorigin="anonymous">
 	</noscript>
 
 
@@ -71,8 +69,15 @@
 		  <a class="nav-link" href="{{ site.baseurl }}/podcasts">Podcasts</a>
 	    	</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="https://www.geekonfilm.shop/">Shop</a>
+		  <a class="nav-link" href="https://shop.geekonfilm.com/">Shop</a>
 	    	</li>
+		{% if page.url == "/subscribe" %}
+		<li class="nav-item active">
+		{% else %}
+		<li class="nav-item">
+		{% endif %}
+		  <a class="nav-link nav-subscribe" href="{{ site.baseurl }}/subscribe">Subscribe</a>
+		</li>
 		    
                 {% include search-lunr.html %}
 
@@ -158,14 +163,16 @@
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
             <div class="col-md-4 col-sm-4 text-center text-lg-center">
+                <!-- Bluesky -->
+                <a href="https://bsky.app/profile/geekonfilm.com"><i class="fa-brands fa-bluesky fa-2x"></i></a>
                 <!-- Facebook -->
                 <a href="https://www.facebook.com/GeekOnFilm"><i class="fab fa-facebook-f fa-2x"></i></a>
                 <!-- Twitter -->
                 <a href="https://twitter.com/geekonfilmcom"><i class="fab fa-twitter pl-1 fa-2x"></i></a>
                 <!-- Instagram -->
                 <a href="https://www.instagram.com/geekonfilmcom/"><i class="fab fa-instagram pl-1 fa-2x"></i></a>
-		<!-- Mastodon -->
-		<a rel="me" href="https://filmherd.social/@geekonfilm"><i class="fab fa-mastodon pl-1 fa-2x"></i></a>
+		        <!-- Mastodon -->
+		        <!-- <a rel="me" href="https://filmherd.social/@geekonfilm"><i class="fab fa-mastodon pl-1 fa-2x"></i></a> -->
 
             </div>
             <div class="col-md-4 col-sm-4 text-center text-lg-right">    
