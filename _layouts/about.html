@@ -16,10 +16,15 @@ permalink: "/about.html"
         {% if site.authors %}
         {% for item in site.authors %}
         {% assign author = item[1] %}
-
+        
         <div class="col-lg-6 mb-4">
             <div class="card">
-
+                
+                {% if author.display_name == "RobbieTheGeek" %}
+                    <div class="text-center lead" >Podcast Host</div>
+                {% else %}
+                    <div class="text-center lead" >Podcast Contributer</div>
+                {% endif %}
 
                 <!-- Avatar -->
                 <div class="avatar mx-auto">
@@ -31,15 +36,19 @@ permalink: "/about.html"
                 <div class="card-body">
                     <!-- Name -->
                     <h5 class="card-title text-center">{{ author.name }} <a target="_blank" class="link-dark"
-                            href="{{ author.web }}">{{ author[1].display_name }} | </a><a target="_blank"
-                            href="{{ author.twitter }}"><img src="{{site.baseurl}}/assets/images/twitter-icon.png"
+                            href="{{ author.web }}">{{ author[1].display_name }} </a>
+                            {% if author.bluesky %}
+                                <a target="_blank" href="{{ author.bluesky }}">
+                                 <img src="{{site.baseurl}}/assets/images/bluesky-icon.png" alt="bluesky icon" /></i></a> | 
+                            {% endif %}
+                            <a target="_blank" href="{{ author.twitter }}"><img src="{{site.baseurl}}/assets/images/twitter-icon.png"
                                 alt="twitter icon" /></a> | <a target="_blank" href="{{ author.letterboxd }}"><img
                                 src="{{site.baseurl}}/assets/images/letterboxd-icon.png"
                                 alt="letterboxd icon" /></i></a>
-                        {% if author.serializd %}
-                            | <a target="_blank" href="{{ author.serializd }}">
-                            <img src="{{site.baseurl}}/assets/images/serializd-icon.png" alt="serializd icon" /></i></a>
-                        {% endif %}
+                            {% if author.serializd %}
+                                | <a target="_blank" href="{{ author.serializd }}">
+                                <img src="{{site.baseurl}}/assets/images/serializd-icon.png" alt="serializd icon" /></i></a>
+                            {% endif %}
                         </h4>
                     </h5>
                         <hr>
